@@ -551,5 +551,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 77,
+    titulo: "Super Smash Bros",
+    imagen: "assets/img/super-smash-bros-77.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
