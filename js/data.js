@@ -587,5 +587,14 @@ const entries = [
     generos: ["Acción","Aventura","Mundo abierto"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 81,
+    titulo: "Cuphead",
+    imagen: "assets/img/cuphead-81.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Plataformas","Shooter"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
