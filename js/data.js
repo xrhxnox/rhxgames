@@ -398,5 +398,14 @@ const entries = [
     generos: ["Acción","Roguelike"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 60,
+    titulo: "Hollow Knight",
+    imagen: "assets/img/hollow-knight-60.jpg",
+    plataformas: ["switch","switch2","pc"],
+    generos: ["Acción","Aventura","Indie"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
