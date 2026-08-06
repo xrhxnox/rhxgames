@@ -263,5 +263,13 @@ const entries = [
     generos: ["Aventura","RPG","Estrategia"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 45,
+    titulo: "Super Mario 3D All-Stars",
+    imagen: "assets/img/super-mario-3d-all-stars-45.jpg",
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 7.5,
+    fecha: "2026-08-06"
   }
 ];
