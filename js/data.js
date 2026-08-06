@@ -164,5 +164,14 @@ const entries = [
     generos: ["RPG","Aventura"],
     puntuacion: 8,
     fecha: "2026-07-15"
+  },
+  {
+    id: 34,
+    titulo: "Mario Kart 8 Deluxe",
+    imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
+    plataformas: ["switch"],
+    generos: ["Carreras"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
