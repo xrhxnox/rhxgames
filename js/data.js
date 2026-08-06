@@ -524,5 +524,14 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 74,
+    titulo: "Super Smash Bros Brawl",
+    imagen: "assets/img/super-smash-bros-brawl-74.jpg",
+    plataformas: ["wii"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
