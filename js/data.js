@@ -469,5 +469,14 @@ const entries = [
     generos: ["Plataformas"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 68,
+    titulo: "Tony Hawk's Pro Skater 1 + 2",
+    imagen: "assets/img/tony-hawk-s-pro-skater-1-2-68.jpg",
+    plataformas: ["pc"],
+    generos: ["Deportes"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
