@@ -307,5 +307,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 7.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 50,
+    titulo: "Mario Kart World",
+    imagen: "assets/img/mario-kart-world-50.jpg",
+    plataformas: ["switch2"],
+    generos: ["Mundo abierto","Carreras"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
