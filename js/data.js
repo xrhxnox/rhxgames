@@ -361,5 +361,14 @@ const entries = [
     generos: ["Estrategia"],
     puntuacion: 6,
     fecha: "2026-08-06"
+  },
+  {
+    id: 56,
+    titulo: "Pokémon HeartGold",
+    imagen: "assets/img/pokemon-heartgold-56.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
