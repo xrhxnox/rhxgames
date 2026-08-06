@@ -209,5 +209,13 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 39,
+    titulo: "No More Heroes",
+    imagen: "assets/img/no-more-heroes-39.jpg",
+    plataformas: ["wii","switch","pc"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
