@@ -478,5 +478,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 69,
+    titulo: "Sonic Heroes",
+    imagen: "assets/img/sonic-heroes-69.jpg",
+    plataformas: ["gamecube","ps2"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 7.5,
+    fecha: "2026-08-06"
   }
 ];
