@@ -89,7 +89,7 @@ const entries = [
     titulo: "Pokémon Violet",
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
-    generos: ["RPG","Mundo abierto"],
+    generos: ["Aventura","RPG","Mundo abierto"],
     puntuacion: 6.5,
     fecha: "2026-07-15"
   },
