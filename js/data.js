@@ -389,5 +389,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 59,
+    titulo: "Hades",
+    imagen: "assets/img/hades-59.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Roguelike"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
