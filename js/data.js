@@ -340,8 +340,8 @@ const entries = [
     id: 53,
     titulo: "Splatoon 3",
     imagen: "assets/img/splatoon-3-53.jpg",
-    plataformas: ["switch2","pc"],
-    generos: ["Acción","Aventura","Shooter","Indie"],
+    plataformas: ["switch2"],
+    generos: ["Acción","Aventura","Shooter"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
   },
