@@ -134,7 +134,7 @@ const entries = [
     titulo: "Pokémon Brilliant Diamond",
     imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
     plataformas: ["switch"],
-    generos: ["RPG"],
+    generos: ["Aventura","RPG"],
     puntuacion: 5,
     fecha: "2026-07-15"
   },
