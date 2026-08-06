@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin — Agregar juego</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Panel de Administracion</span></h1>
+    <p class="subtitle">Agregar un juego nuevo</p>
+  </header>
+
+  <main class="admin-main">
+    <a class="back-link" href="index.html">&larr; Volver al catálogo</a>
+
+    <section class="status-section">
+      <div class="entries-header">
+        <h2>Jugando ahora</h2>
+      </div>
+      <p class="entries-hint" id="statusFormHint">Ingresa tu token y presiona "Actualizar" en Mis juegos para cargarlo.</p>
+      <div class="status-form" id="statusForm" hidden>
+        <input type="text" id="statusTitulo" placeholder="¿Qué estás jugando?">
+        <div class="status-form-actions">
+          <button type="button" id="saveStatusBtn" class="text-btn">Guardar estado</button>
+          <button type="button" id="clearStatusBtn" class="text-btn danger-text-btn">Quitar estado</button>
+        </div>
+        <p class="status" id="statusFormStatus"></p>
+      </div>
+    </section>
+
+    <section class="entries-section">
+      <div class="entries-header">
+        <h2>Mis juegos</h2>
+        <button type="button" id="refreshEntriesBtn" class="text-btn">Actualizar</button>
+      </div>
+      <div class="search-bar entries-search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="entriesSearchInput" placeholder="Busca un juego para editarlo o eliminarlo...">
+      </div>
+      <div class="entries-list" id="entriesList">
+        <p class="entries-hint">Ingresa tu token y presiona "Actualizar", luego busca por título.</p>
+      </div>
+    </section>
+
+    <div class="success-banner" id="successBanner" hidden>
+      <p id="successMessage"></p>
+      <button type="button" id="addAnotherBtn">+ Agregar otro juego</button>
+    </div>
+
+    <form class="admin-form" id="addForm">
+      <div class="edit-banner" id="editBanner" hidden>
+        Editando <strong id="editingTitle"></strong>
+        <button type="button" id="cancelEditBtn">Cancelar</button>
+      </div>
+
+      <fieldset>
+        <legend>Tu token de GitHub</legend>
+        <label>
+          Personal access token
+          <input type="password" id="token" placeholder="github_pat_..." autocomplete="off" required>
+        </label>
+        <label class="checkbox-row">
+          <input type="checkbox" id="rememberToken">
+          Recordar en este navegador
+        </label>
+      </fieldset>
+
+      <label>
+        Título
+        <input type="text" id="titulo" required>
+      </label>
+
+      <fieldset id="platformFieldset">
+        <legend>Plataforma(s)</legend>
+        <div class="platform-picker" id="platformPicker"></div>
+      </fieldset>
+
+      <fieldset id="genreFieldset">
+        <legend>Género(s)</legend>
+        <div class="platform-options" id="genrePicker"></div>
+      </fieldset>
+
+      <label>
+        Puntuación (0 a 10)
+        <input type="number" id="puntuacion" min="0" max="10" step="0.5" value="10" required>
+      </label>
+      <div class="rating-preview" id="ratingPreview"></div>
+
+      <label>
+        Fecha de publicación
+        <input type="date" id="fecha" required>
+      </label>
+
+      <label>
+        Carátula
+        <input type="file" id="imagen" accept="image/*" required>
+      </label>
+      <p class="current-image-hint" id="currentImageHint" hidden></p>
+
+      <button type="submit" id="submitBtn">Publicar juego</button>
+      <p class="status" id="status"></p>
+    </form>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
