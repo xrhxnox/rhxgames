@@ -487,5 +487,14 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 7.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 70,
+    titulo: "Pokémon Stadium",
+    imagen: "assets/img/pokemon-stadium-70.jpg",
+    plataformas: ["n64"],
+    generos: ["RPG"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
