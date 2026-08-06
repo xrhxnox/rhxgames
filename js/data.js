@@ -448,6 +448,7 @@ const entries = [
     titulo: "Super Mario Sunshine",
     imagen: "assets/img/super-mario-sunshine-65.jpg",
     plataformas: ["gamecube"],
+    generos: ["Aventura","Plataformas"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
   },
