@@ -370,5 +370,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 57,
+    titulo: "Pokémon Black 2",
+    imagen: "assets/img/pokemon-black-2-57.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
