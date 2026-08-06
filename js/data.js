@@ -578,5 +578,14 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 80,
+    titulo: "The Legend of Zelda: Tears of the Kingdom",
+    imagen: "assets/img/the-legend-of-zelda-tears-of-the-kingdom-80.jpg",
+    plataformas: ["switch","switch2"],
+    generos: ["Acción","Aventura","Mundo abierto"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
