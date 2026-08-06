@@ -97,8 +97,8 @@ const entries = [
     id: 19,
     titulo: "Pokémon Legends: Z-A",
     imagen: "assets/img/pokemon-legends-za-19.jpg",
-    plataformas: ["switch","switch2"],
-    generos: ["RPG"],
+    plataformas: ["switch","switch2","movil"],
+    generos: ["Aventura","RPG","Estrategia"],
     puntuacion: 8,
     fecha: "2026-07-15"
   },
