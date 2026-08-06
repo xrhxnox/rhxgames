@@ -568,5 +568,14 @@ const entries = [
     plataformas: ["nds","pc"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 79,
+    titulo: "Dragon Ball: Sparking! Zero",
+    imagen: "assets/img/dragon-ball-sparking-zero-79.jpg",
+    plataformas: ["pc"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
