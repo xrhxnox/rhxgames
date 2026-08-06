@@ -605,5 +605,14 @@ const entries = [
     generos: ["Puzzle"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 83,
+    titulo: "New Super Mario Bros Wii",
+    imagen: "assets/img/new-super-mario-bros-wii-83.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
