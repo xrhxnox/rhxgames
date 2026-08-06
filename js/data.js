@@ -542,5 +542,14 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 76,
+    titulo: "DmC: Devil May Cry",
+    imagen: "assets/img/dmc-devil-may-cry-76.jpg",
+    plataformas: ["xbox360","pc"],
+    generos: ["Acción"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
