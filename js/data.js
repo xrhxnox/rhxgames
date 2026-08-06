@@ -343,5 +343,14 @@ const entries = [
     generos: ["Acción","Shooter"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 54,
+    titulo: "Super Mario Bros Wonder",
+    imagen: "assets/img/super-mario-bros-wonder-54.jpg",
+    plataformas: ["switch","switch2"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
