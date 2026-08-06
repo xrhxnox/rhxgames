@@ -460,5 +460,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 67,
+    titulo: "Super Mario World",
+    imagen: "assets/img/super-mario-world-67.jpg",
+    plataformas: ["snes"],
+    generos: ["Plataformas"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
