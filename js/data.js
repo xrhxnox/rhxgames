@@ -236,5 +236,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 42,
+    titulo: "Super Mario Galaxy",
+    imagen: "assets/img/super-mario-galaxy-42.jpg",
+    plataformas: ["wii","switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
