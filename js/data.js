@@ -191,5 +191,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 37,
+    titulo: "Travis Strikes Again: No More Heroes",
+    imagen: "assets/img/travis-strikes-again-no-more-heroes-37.jpg",
+    plataformas: ["switch","ps4","pc"],
+    generos: ["Acción"],
+    puntuacion: 6.5,
+    fecha: "2026-08-06"
   }
 ];
