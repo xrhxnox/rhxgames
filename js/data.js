@@ -405,7 +405,7 @@ const entries = [
     imagen: "assets/img/hollow-knight-60.jpg",
     plataformas: ["switch","switch2","pc"],
     generos: ["Acción","Aventura","Indie"],
-    puntuacion: 10,
+    puntuacion: 9,
     fecha: "2026-08-06"
   },
   {
