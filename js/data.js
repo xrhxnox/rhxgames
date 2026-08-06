@@ -505,5 +505,14 @@ const entries = [
     generos: ["Acción","Shooter"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 72,
+    titulo: "Call of Duty: Black Ops II",
+    imagen: "assets/img/call-of-duty-black-ops-ii-72.jpg",
+    plataformas: ["xbox360","pc"],
+    generos: ["Acción","Shooter"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
