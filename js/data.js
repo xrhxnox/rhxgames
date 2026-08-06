@@ -515,5 +515,14 @@ const entries = [
     generos: ["Acción","Shooter"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 73,
+    titulo: "Punch-Out!!",
+    imagen: "assets/img/punch-out-73.jpg",
+    plataformas: ["wii"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
