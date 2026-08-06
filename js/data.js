@@ -289,5 +289,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 48,
+    titulo: "Mario Strikers: Battle League",
+    imagen: "assets/img/mario-strikers-battle-league-48.jpg",
+    plataformas: ["switch"],
+    generos: ["Deportes"],
+    puntuacion: 6,
+    fecha: "2026-08-06"
   }
 ];
