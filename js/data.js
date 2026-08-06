@@ -379,5 +379,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 58,
+    titulo: "Pokémon Y",
+    imagen: "assets/img/pokemon-y-58.jpg",
+    plataformas: ["n3ds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
