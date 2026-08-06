@@ -200,5 +200,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 6.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 38,
+    titulo: "Paper Mario: The Origami King",
+    imagen: "assets/img/paper-mario-the-origami-king-38.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
