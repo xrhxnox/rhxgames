@@ -277,7 +277,7 @@ const entries = [
     id: 46,
     titulo: "No More Heroes III",
     imagen: "assets/img/no-more-heroes-iii-46.jpg",
-    plataformas: ["switch","ps4","ps5","xboxone","xboxseries","pc"],
+    plataformas: ["switch","pc"],
     generos: ["Acción"],
     puntuacion: 7.5,
     fecha: "2026-08-06"
