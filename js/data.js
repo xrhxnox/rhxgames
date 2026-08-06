@@ -433,5 +433,14 @@ const entries = [
     generos: ["Estrategia","Puzzle"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 64,
+    titulo: "Super Mario Party Jamboree",
+    imagen: "assets/img/super-mario-party-jamboree-64.jpg",
+    plataformas: ["switch","switch2"],
+    generos: ["Party"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
