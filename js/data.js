@@ -415,5 +415,14 @@ const entries = [
     plataformas: ["switch","switch2"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 62,
+    titulo: "Hyrule Warriors: Age of Calamity",
+    imagen: "assets/img/hyrule-warriors-age-of-calamity-62.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","RPG"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
