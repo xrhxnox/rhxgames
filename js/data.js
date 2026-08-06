@@ -614,5 +614,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 84,
+    titulo: "Top Spin 2K25",
+    imagen: "assets/img/top-spin-2k25-84.jpg",
+    plataformas: ["pc"],
+    generos: ["Deportes"],
+    puntuacion: 7.5,
+    fecha: "2026-08-06"
   }
 ];
