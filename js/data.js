@@ -596,5 +596,14 @@ const entries = [
     generos: ["Plataformas","Shooter"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 82,
+    titulo: "Portal 2",
+    imagen: "assets/img/portal-2-82.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Puzzle"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
