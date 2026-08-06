@@ -125,7 +125,7 @@ const entries = [
     titulo: "Pokémon Sword",
     imagen: "assets/img/pokemon-sword-27.jpg",
     plataformas: ["switch"],
-    generos: ["RPG"],
+    generos: ["Aventura","RPG"],
     puntuacion: 6,
     fecha: "2026-07-15"
   },
