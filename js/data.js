@@ -566,6 +566,7 @@ const entries = [
     titulo: "Plants vs. Zombies",
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
+    generos: ["Estrategia"],
     puntuacion: 10,
     fecha: "2026-08-06"
   },
