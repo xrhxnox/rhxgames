@@ -1,7 +1,6 @@
 const PLATFORM_GROUPS = {
   nintendo: {
     label: "Nintendo",
-    icon: "fa-solid fa-gamepad",
     color: "#e60012",
     items: {
       nes: "NES",
@@ -46,7 +45,7 @@ const PLATFORM_GROUPS = {
   pc: {
     label: "PC",
     icon: "fa-brands fa-steam",
-    color: "#e6c229",
+    color: "#00aeef",
     items: {
       pc: "PC"
     }

@@ -12,7 +12,7 @@
   --plat-nintendo: #e60012;
   --plat-playstation: #0070d1;
   --plat-xbox: #107c10;
-  --plat-pc: #e6c229;
+  --plat-pc: #00aeef;
   --plat-mobile: #00b8a9;
   --genre-color: #8b5cf6;
 
@@ -355,6 +355,18 @@ main {
 .filter-btn i {
   color: var(--text-dim);
   transition: color 0.15s ease;
+}
+
+.switch-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-icon svg {
+  width: 1.15em;
+  height: 1.15em;
+  display: block;
 }
 
 .filter-btn[data-filter="todos"]:hover i, .filter-btn[data-filter="todos"].active i { color: var(--todos-accent); }
