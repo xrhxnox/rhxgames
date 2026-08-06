@@ -407,5 +407,13 @@ const entries = [
     generos: ["Acción","Aventura","Indie"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 61,
+    titulo: "Kirby and the Forgotten Land",
+    imagen: "assets/img/kirby-and-the-forgotten-land-61.jpg",
+    plataformas: ["switch","switch2"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
