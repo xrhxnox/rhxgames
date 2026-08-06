@@ -173,5 +173,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 35,
+    titulo: "Super Mario Odyssey",
+    imagen: "assets/img/super-mario-odyssey-35.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
