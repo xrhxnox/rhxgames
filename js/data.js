@@ -352,5 +352,41 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 55,
+    titulo: "Pokémon Unite",
+    imagen: "assets/img/pokemon-unite-55.jpg",
+    plataformas: ["switch","movil"],
+    generos: ["Estrategia"],
+    puntuacion: 6,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 56,
+    titulo: "Pokémon HeartGold",
+    imagen: "assets/img/pokemon-heartgold-56.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 57,
+    titulo: "Pokémon Black 2",
+    imagen: "assets/img/pokemon-black-2-57.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 58,
+    titulo: "Pokémon Y",
+    imagen: "assets/img/pokemon-y-58.jpg",
+    plataformas: ["n3ds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
