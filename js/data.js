@@ -107,7 +107,7 @@ const entries = [
     titulo: "The Legend of Zelda: Breath of the Wild",
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
-    generos: ["Aventura","Mundo abierto"],
+    generos: ["Acción","Aventura","Mundo abierto"],
     puntuacion: 10,
     fecha: "2026-07-15"
   },
