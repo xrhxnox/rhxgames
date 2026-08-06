@@ -424,5 +424,14 @@ const entries = [
     generos: ["Acción","RPG"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 63,
+    titulo: "Mario vs. Donkey Kong",
+    imagen: "assets/img/mario-vs-donkey-kong-63.jpg",
+    plataformas: ["switch","gba"],
+    generos: ["Estrategia","Puzzle"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
