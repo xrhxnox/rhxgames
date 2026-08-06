@@ -415,5 +415,40 @@ const entries = [
     plataformas: ["switch","switch2"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 62,
+    titulo: "Hyrule Warriors: Age of Calamity",
+    imagen: "assets/img/hyrule-warriors-age-of-calamity-62.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","RPG"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 63,
+    titulo: "Mario vs. Donkey Kong",
+    imagen: "assets/img/mario-vs-donkey-kong-63.jpg",
+    plataformas: ["switch","gba"],
+    generos: ["Estrategia","Puzzle"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 64,
+    titulo: "Super Mario Party Jamboree",
+    imagen: "assets/img/super-mario-party-jamboree-64.jpg",
+    plataformas: ["switch","switch2"],
+    generos: ["Party"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 65,
+    titulo: "Super Mario Sunshine",
+    imagen: "assets/img/super-mario-sunshine-65.jpg",
+    plataformas: ["gamecube"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
