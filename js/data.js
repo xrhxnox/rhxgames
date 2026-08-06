@@ -223,7 +223,7 @@ const entries = [
     id: 40,
     titulo: "No More Heroes 2: Desperate Struggle",
     imagen: "assets/img/no-more-heroes-2-desperate-struggle-40.jpg",
-    plataformas: ["wii","switch","pc"],
+    plataformas: ["wii","switch"],
     generos: ["Acción"],
     puntuacion: 9,
     fecha: "2026-08-06"
