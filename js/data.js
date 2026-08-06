@@ -280,5 +280,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 7.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 47,
+    titulo: "skate.",
+    imagen: "assets/img/skate-47.jpg",
+    plataformas: ["ps4","ps5","xboxone","xboxseries","pc"],
+    generos: ["Deportes"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
