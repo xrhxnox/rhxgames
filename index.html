@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick | Games</title>
+
+  <script>
+    (function() {
+      var saved = localStorage.getItem("rhxgames_theme");
+      var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+
+  <link rel="icon" href="assets/img/web/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <button type="button" id="themeToggle" class="icon-btn theme-toggle-fixed" aria-label="Cambiar tema claro/oscuro"></button>
+
+  <header class="profile-header">
+    <div class="profile-content">
+      <div class="profile-photo-wrap">
+        <img src="assets/img/web/profile.png" alt="Rick" class="profile-photo">
+      </div>
+      <div class="profile-info">
+        <h1 class="profile-name">яicᴋ</h1>
+        <p class="profile-handle">@rhxgames</p>
+        <p class="profile-bio">Videojuegos que voy terminando</p>
+        <div class="status-badge" id="statusBadge" hidden></div>
+        <p class="profile-stats" id="profileStats" hidden></p>
+        <div class="header-actions">
+          <a class="icon-btn" href="https://x.com/xrhxnox" target="_blank" rel="noopener" aria-label="Sígueme en X: @xrhxnox">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <hr class="section-divider">
+
+  <main>
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="searchInput" placeholder="Buscar...">
+    </div>
+
+    <div class="controls">
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="todos"><span class="filter-icon"><i class="fa-solid fa-circle-check"></i></span><span class="filter-label">Todos</span></button>
+        <button class="filter-btn" data-filter="nintendo"><span class="filter-icon"><i class="fa-solid fa-gamepad"></i></span><span class="filter-label">Nintendo</span></button>
+        <button class="filter-btn" data-filter="playstation"><span class="filter-icon"><i class="fa-brands fa-playstation"></i></span><span class="filter-label">PlayStation</span></button>
+        <button class="filter-btn" data-filter="xbox"><span class="filter-icon"><i class="fa-brands fa-xbox"></i></span><span class="filter-label">Xbox</span></button>
+        <button class="filter-btn" data-filter="pc"><span class="filter-icon"><i class="fa-brands fa-steam"></i></span><span class="filter-label">PC</span></button>
+        <button class="filter-btn" data-filter="mobile"><span class="filter-icon"><i class="fa-solid fa-mobile-screen-button"></i></span><span class="filter-label">Móvil</span></button>
+      </div>
+
+      <div class="selects-row">
+        <div class="year-select">
+          <label for="year">Año</label>
+          <select id="year"></select>
+        </div>
+
+        <div class="year-select">
+          <label for="sortSelect">Ordenar</label>
+          <select id="sortSelect">
+            <option value="fecha">Más reciente</option>
+            <option value="rating">Mejor calificado</option>
+            <option value="rating-asc">Menor calificación</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>Aún no hay nada aqui lol</p>
+
+    <section class="grid" id="grid"></section>
+
+    <div class="pagination" id="pagination"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="copyrightYear"></span><br>Diseñado por mi</p>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/status.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
