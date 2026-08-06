@@ -450,5 +450,14 @@ const entries = [
     plataformas: ["gamecube"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 66,
+    titulo: "Super Mario 64",
+    imagen: "assets/img/super-mario-64-66.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
