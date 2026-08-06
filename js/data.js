@@ -254,5 +254,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 44,
+    titulo: "Paper Mario: The Thousand-Year Door",
+    imagen: "assets/img/paper-mario-the-thousand-year-door-44.jpg",
+    plataformas: ["gamecube","switch"],
+    generos: ["Aventura","RPG","Estrategia"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
