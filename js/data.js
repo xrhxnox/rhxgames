@@ -227,5 +227,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 41,
+    titulo: "Super Mario RPG",
+    imagen: "assets/img/super-mario-rpg-41.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
