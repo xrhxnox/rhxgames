@@ -533,5 +533,14 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 9,
     fecha: "2026-08-06"
+  },
+  {
+    id: 75,
+    titulo: "Super Smash Bros Melee",
+    imagen: "assets/img/super-smash-bros-melee-75.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
