@@ -413,6 +413,7 @@ const entries = [
     titulo: "Kirby and the Forgotten Land",
     imagen: "assets/img/kirby-and-the-forgotten-land-61.jpg",
     plataformas: ["switch","switch2"],
+    generos: ["Aventura","Plataformas"],
     puntuacion: 9,
     fecha: "2026-08-06"
   },
