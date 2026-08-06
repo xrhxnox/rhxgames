@@ -207,6 +207,42 @@ function parseEntries(jsSource) {
   return fn();
 }
 
+async function stripIccProfile(blob) {
+  const buf = new Uint8Array(await blob.arrayBuffer());
+  if (buf[0] !== 0xff || buf[1] !== 0xd8) return blob;
+  const out = [buf[0], buf[1]];
+  let i = 2;
+  while (i < buf.length) {
+    if (buf[i] !== 0xff) break;
+    const marker = buf[i + 1];
+    if (marker === 0xd8 || marker === 0xd9) {
+      out.push(buf[i], buf[i + 1]);
+      i += 2;
+      if (marker === 0xd9) break;
+      continue;
+    }
+    if (marker >= 0xd0 && marker <= 0xd7) {
+      out.push(buf[i], buf[i + 1]);
+      i += 2;
+      continue;
+    }
+    const len = (buf[i + 2] << 8) | buf[i + 3];
+    const segStart = i;
+    const segEnd = i + 2 + len;
+    const isIccApp2 = marker === 0xe2 &&
+      String.fromCharCode(...buf.slice(i + 4, i + 4 + 11)) === "ICC_PROFILE";
+    if (!isIccApp2) {
+      for (let k = segStart; k < segEnd; k++) out.push(buf[k]);
+    }
+    i = segEnd;
+    if (marker === 0xda) {
+      for (let k = i; k < buf.length; k++) out.push(buf[k]);
+      break;
+    }
+  }
+  return new Blob([new Uint8Array(out)], { type: "image/jpeg" });
+}
+
 async function compressImage(file, maxDimension = 900, quality = 0.85) {
   const bitmap = await createImageBitmap(file);
   const scale = Math.min(1, maxDimension / Math.max(bitmap.width, bitmap.height));
@@ -218,12 +254,13 @@ async function compressImage(file, maxDimension = 900, quality = 0.85) {
   const ctx = canvas.getContext("2d");
   ctx.drawImage(bitmap, 0, 0, width, height);
   if (bitmap.close) bitmap.close();
-  return new Promise((resolve, reject) => {
+  const blob = await new Promise((resolve, reject) => {
     canvas.toBlob(blob => {
       if (blob) resolve(blob);
       else reject(new Error("No se pudo procesar la imagen."));
     }, "image/jpeg", quality);
   });
+  return stripIccProfile(blob);
 }
 
 async function deleteImageFile(path, message) {
