@@ -442,5 +442,13 @@ const entries = [
     generos: ["Party"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 65,
+    titulo: "Super Mario Sunshine",
+    imagen: "assets/img/super-mario-sunshine-65.jpg",
+    plataformas: ["gamecube"],
+    puntuacion: 8.5,
+    fecha: "2026-08-06"
   }
 ];
