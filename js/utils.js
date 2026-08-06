@@ -6,16 +6,16 @@ const PLATFORM_GROUPS = {
     items: {
       nes: "NES",
       snes: "SNES",
-      n64: "Nintendo 64",
-      gamecube: "GameCube",
+      n64: "N64",
+      gamecube: "NGC",
       wii: "Wii",
       wiiu: "Wii U",
       switch: "Switch",
       switch2: "Switch 2",
-      gameboy: "Game Boy",
-      gba: "GB Advance",
-      nds: "Nintendo DS",
-      n3ds: "Nintendo 3DS"
+      gameboy: "GB",
+      gba: "GBA",
+      nds: "NDS",
+      n3ds: "N3DS"
     }
   },
   playstation: {
@@ -40,7 +40,7 @@ const PLATFORM_GROUPS = {
       xbox: "Xbox",
       xbox360: "Xbox 360",
       xboxone: "Xbox One",
-      xboxseries: "Xbox Series X|S"
+      xboxseries: "Series X|S"
     }
   },
   pc: {
@@ -72,7 +72,7 @@ const GAME_GENRES = [
 // "pc" y "movil" se excluyen de aquí porque siempre van al final (ver
 // platformSortIndex).
 const PLATFORM_ORDER = [
-  "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "gamecube",
+  "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "ngc",
   "xbox", "nds", "psp", "xbox360", "ps3", "wii", "n3ds", "psvita",
   "wiiu", "ps4", "xboxone", "switch", "xboxseries", "ps5", "switch2"
 ];
