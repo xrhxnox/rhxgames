@@ -316,5 +316,14 @@ const entries = [
     generos: ["Mundo abierto","Carreras"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 51,
+    titulo: "Sonic Adventure 2: Battle",
+    imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
+    plataformas: ["gamecube","pc"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 9.5,
+    fecha: "2026-08-06"
   }
 ];
