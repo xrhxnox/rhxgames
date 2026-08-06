@@ -207,7 +207,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-origami-king-38.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 10,
+    puntuacion: 8,
     fecha: "2026-08-06"
   },
   {
