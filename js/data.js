@@ -352,5 +352,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 55,
+    titulo: "Pokémon Unite",
+    imagen: "assets/img/pokemon-unite-55.jpg",
+    plataformas: ["switch","movil"],
+    generos: ["Estrategia"],
+    puntuacion: 6,
+    fecha: "2026-08-06"
   }
 ];
