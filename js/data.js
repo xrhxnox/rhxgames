@@ -143,7 +143,7 @@ const entries = [
     titulo: "Pokémon Legends: Arceus",
     imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
     plataformas: ["switch"],
-    generos: ["RPG","Mundo abierto"],
+    generos: ["Aventura","RPG"],
     puntuacion: 8,
     fecha: "2026-07-15"
   },
