@@ -496,5 +496,14 @@ const entries = [
     generos: ["RPG"],
     puntuacion: 8.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 71,
+    titulo: "Call of Duty: Black Ops",
+    imagen: "assets/img/call-of-duty-black-ops-71.jpg",
+    plataformas: ["xbox360","pc"],
+    generos: ["Acción","Shooter"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
