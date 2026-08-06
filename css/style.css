@@ -23,7 +23,7 @@
 }
 
 :root[data-theme="light"] {
-  --bg: #f4f4f2;
+  --bg: #ffffff;
   --surface: #ffffff;
   --surface-hover: #e8e8e6;
   --text: #1f1f1e;
