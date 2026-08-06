@@ -560,5 +560,13 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 8,
     fecha: "2026-08-06"
+  },
+  {
+    id: 78,
+    titulo: "Plants vs. Zombies",
+    imagen: "assets/img/plants-vs-zombies-78.jpg",
+    plataformas: ["nds","pc"],
+    puntuacion: 10,
+    fecha: "2026-08-06"
   }
 ];
