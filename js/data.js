@@ -182,5 +182,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 10,
     fecha: "2026-08-06"
+  },
+  {
+    id: 36,
+    titulo: "Mario Tennis Aces",
+    imagen: "assets/img/mario-tennis-aces-36.jpg",
+    plataformas: ["switch"],
+    generos: ["Deportes"],
+    puntuacion: 8,
+    fecha: "2026-08-06"
   }
 ];
