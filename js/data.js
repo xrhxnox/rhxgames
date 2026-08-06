@@ -325,5 +325,14 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 9.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 52,
+    titulo: "Monster Hunter Rise",
+    imagen: "assets/img/monster-hunter-rise-52.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Aventura","RPG"],
+    puntuacion: 9,
+    fecha: "2026-08-06"
   }
 ];
