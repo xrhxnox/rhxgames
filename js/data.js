@@ -840,5 +840,14 @@ const entries = [
     generos: ["Aventura","Lucha"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 108,
+    titulo: "Mario Kart: Double Dash!!",
+    imagen: "assets/img/mario-kart-double-dash-108.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Carreras"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
   }
 ];
