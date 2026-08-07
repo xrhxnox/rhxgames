@@ -719,7 +719,7 @@ const entries = [
   },
   {
     id: 94,
-    titulo: "Super Smash Bross for Wii U",
+    titulo: "Super Smash Bros for Wii U",
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
     generos: ["Acción","Peleas"],
