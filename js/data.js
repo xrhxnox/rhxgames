@@ -876,5 +876,14 @@ const entries = [
     generos: ["Musical"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 112,
+    titulo: "Mario Super Sluggers",
+    imagen: "assets/img/mario-super-sluggers-112.jpg",
+    plataformas: ["wii"],
+    generos: ["Deportes"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
