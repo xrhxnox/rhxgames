@@ -660,7 +660,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Peleas"],
-    puntuacion: 4.5,
+    puntuacion: 5,
     fecha: "2026-08-07"
   },
   {
