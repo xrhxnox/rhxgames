@@ -20,7 +20,7 @@ const entries = [
     plataformas: ["switch","switch2","movil"],
     generos: ["Estrategia"],
     puntuacion: 2.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const entries = [
     plataformas: ["movil"],
     generos: ["Estrategia"],
     puntuacion: 4,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const entries = [
     generos: ["Estrategia"],
     top: "top15",
     puntuacion: 0,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const entries = [
     generos: ["Simulación"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const entries = [
     plataformas: ["switch2"],
     generos: ["Acción","Arcade"],
     puntuacion: 4,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 10,
@@ -67,7 +67,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Estrategia","Puzzle"],
     puntuacion: 3.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 11,
@@ -76,7 +76,7 @@ const entries = [
     plataformas: ["switch","gba"],
     generos: ["RPG","Aventura"],
     puntuacion: 3.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 15,
@@ -86,7 +86,7 @@ const entries = [
     generos: ["Acción","Aventura"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 18,
@@ -95,7 +95,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 2.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 19,
@@ -104,7 +104,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Aventura","RPG","Estrategia"],
     puntuacion: 3.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 25,
@@ -114,7 +114,7 @@ const entries = [
     generos: ["Acción","Aventura"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 26,
@@ -123,7 +123,7 @@ const entries = [
     plataformas: ["switch2"],
     generos: ["Plataformas","Aventura"],
     puntuacion: 5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 27,
@@ -132,7 +132,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 3,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 28,
@@ -141,7 +141,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 2,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 29,
@@ -150,7 +150,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 3.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 32,
@@ -159,7 +159,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Estrategia","RPG"],
     puntuacion: 4,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 33,
@@ -168,7 +168,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["RPG","Aventura"],
     puntuacion: 3.5,
-    fecha: "2026-07-15"
+    fecha: "2026-08-01"
   },
   {
     id: 34,
@@ -177,7 +177,7 @@ const entries = [
     plataformas: ["wiiu","switch"],
     generos: ["Carreras"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 35,
@@ -186,7 +186,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 36,
@@ -195,7 +195,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Deportes"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 37,
@@ -204,7 +204,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Acción"],
     puntuacion: 2.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 38,
@@ -213,7 +213,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 39,
@@ -223,7 +223,7 @@ const entries = [
     generos: ["Acción"],
     top: "top15",
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 40,
@@ -232,7 +232,7 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Acción"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 41,
@@ -241,7 +241,7 @@ const entries = [
     plataformas: ["snes","switch"],
     generos: ["Aventura","RPG"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 42,
@@ -250,7 +250,7 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 43,
@@ -259,7 +259,7 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 44,
@@ -269,7 +269,7 @@ const entries = [
     generos: ["Aventura","RPG","Estrategia"],
     top: "top5",
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 45,
@@ -278,7 +278,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 46,
@@ -287,7 +287,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Acción"],
     puntuacion: 2.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 47,
@@ -296,7 +296,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Deportes"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 48,
@@ -305,7 +305,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Deportes"],
     puntuacion: 2.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 49,
@@ -314,7 +314,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Deportes"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 50,
@@ -323,7 +323,7 @@ const entries = [
     plataformas: ["switch2"],
     generos: ["Carreras"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 51,
@@ -333,7 +333,7 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     top: "top15",
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 52,
@@ -342,7 +342,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Acción","Aventura","RPG"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 53,
@@ -351,7 +351,7 @@ const entries = [
     plataformas: ["switch2"],
     generos: ["Acción","Aventura","Shooter"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 54,
@@ -360,7 +360,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 55,
@@ -369,7 +369,7 @@ const entries = [
     plataformas: ["switch","movil"],
     generos: ["Estrategia"],
     puntuacion: 2.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 56,
@@ -379,7 +379,7 @@ const entries = [
     generos: ["Aventura","RPG","Estrategia"],
     top: "top5",
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 57,
@@ -388,7 +388,7 @@ const entries = [
     plataformas: ["nds"],
     generos: ["Aventura","RPG"],
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 58,
@@ -397,7 +397,7 @@ const entries = [
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 59,
@@ -406,7 +406,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Acción","Roguelike"],
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 60,
@@ -415,7 +415,7 @@ const entries = [
     plataformas: ["switch","switch2","pc"],
     generos: ["Acción","Aventura","Indie"],
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 61,
@@ -424,7 +424,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 62,
@@ -433,7 +433,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Acción","RPG"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 63,
@@ -442,7 +442,7 @@ const entries = [
     plataformas: ["switch","gba"],
     generos: ["Estrategia","Puzzle"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 64,
@@ -451,7 +451,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Party"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 65,
@@ -460,7 +460,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 66,
@@ -470,7 +470,7 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     top: "top15",
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 67,
@@ -480,7 +480,7 @@ const entries = [
     generos: ["Plataformas"],
     top: "top5",
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 68,
@@ -489,7 +489,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Deportes"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 69,
@@ -498,7 +498,7 @@ const entries = [
     plataformas: ["gamecube","ps2"],
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 70,
@@ -507,7 +507,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["RPG"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 71,
@@ -516,7 +516,7 @@ const entries = [
     plataformas: ["wii","xbox360","pc"],
     generos: ["Acción","Shooter"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 72,
@@ -525,7 +525,7 @@ const entries = [
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Shooter"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 73,
@@ -534,7 +534,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Acción","Peleas"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 74,
@@ -543,7 +543,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Acción","Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 75,
@@ -552,7 +552,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Acción","Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 76,
@@ -561,7 +561,7 @@ const entries = [
     plataformas: ["xbox360","pc"],
     generos: ["Acción"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 77,
@@ -570,7 +570,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Acción","Peleas"],
     puntuacion: 3.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 78,
@@ -580,7 +580,7 @@ const entries = [
     generos: ["Estrategia"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 79,
@@ -589,7 +589,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Acción","Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 80,
@@ -598,7 +598,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Acción","Aventura"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 81,
@@ -607,7 +607,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Plataformas","Shooter"],
     puntuacion: 4,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 82,
@@ -616,7 +616,7 @@ const entries = [
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
     puntuacion: 5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 83,
@@ -625,7 +625,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 4.5,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 84,
@@ -634,7 +634,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Deportes"],
     puntuacion: 3,
-    fecha: "2026-08-06"
+    fecha: "2026-08-01"
   },
   {
     id: 85,
@@ -643,7 +643,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 86,
@@ -652,7 +652,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Party"],
     puntuacion: 2.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 87,
@@ -661,7 +661,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Acción","Peleas"],
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 88,
@@ -670,7 +670,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Aventura"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 89,
@@ -679,7 +679,7 @@ const entries = [
     plataformas: ["switch","xbox360"],
     generos: ["Acción","Arcade"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 90,
@@ -688,7 +688,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Party"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 91,
@@ -697,7 +697,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Carreras"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 92,
@@ -706,7 +706,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción","Aventura"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 93,
@@ -715,7 +715,7 @@ const entries = [
     plataformas: ["xbox360","pc"],
     generos: ["Acción"],
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 94,
@@ -724,7 +724,7 @@ const entries = [
     plataformas: ["wiiu"],
     generos: ["Acción","Peleas"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 95,
@@ -733,7 +733,7 @@ const entries = [
     plataformas: ["wiiu"],
     generos: ["Deportes"],
     puntuacion: 1.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 96,
@@ -742,7 +742,7 @@ const entries = [
     plataformas: ["nds"],
     generos: ["Carreras"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 97,
@@ -751,7 +751,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 2.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 98,
@@ -760,7 +760,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 99,
@@ -768,7 +768,7 @@ const entries = [
     imagen: "assets/img/sonic-forces-99.jpg",
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 1.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 100,
@@ -778,7 +778,7 @@ const entries = [
     generos: ["Acción"],
     top: "top15",
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 101,
@@ -787,7 +787,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Acción"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 102,
@@ -796,7 +796,7 @@ const entries = [
     plataformas: ["ps2"],
     generos: ["Acción"],
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 103,
@@ -805,7 +805,7 @@ const entries = [
     plataformas: ["wiiu"],
     generos: ["Party"],
     puntuacion: 1,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 104,
@@ -814,7 +814,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Peleas"],
     puntuacion: 3,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 105,
@@ -823,7 +823,7 @@ const entries = [
     plataformas: ["switch","xbox360"],
     generos: ["Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 106,
@@ -832,7 +832,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 107,
@@ -841,7 +841,7 @@ const entries = [
     plataformas: ["switch","ps3"],
     generos: ["Aventura","Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 108,
@@ -850,7 +850,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Carreras"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 109,
@@ -859,7 +859,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Peleas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 110,
@@ -868,7 +868,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Aventura","RPG"],
     puntuacion: 2.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 111,
@@ -877,7 +877,7 @@ const entries = [
     plataformas: ["wii","xbox360"],
     generos: ["Musical"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 112,
@@ -886,7 +886,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Deportes"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 113,
@@ -895,7 +895,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Party"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 114,
@@ -904,7 +904,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Party"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 115,
@@ -913,7 +913,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Deportes"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 116,
@@ -922,7 +922,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Deportes"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 117,
@@ -931,7 +931,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Party"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 118,
@@ -940,7 +940,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Party"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 119,
@@ -949,7 +949,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción","Shooter"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 120,
@@ -958,7 +958,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Carreras"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 121,
@@ -967,7 +967,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Carreras"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 122,
@@ -976,7 +976,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Plataformas"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 123,
@@ -985,7 +985,7 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 124,
@@ -995,7 +995,7 @@ const entries = [
     generos: ["Acción"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 125,
@@ -1004,7 +1004,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 126,
@@ -1013,7 +1013,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 127,
@@ -1022,7 +1022,7 @@ const entries = [
     plataformas: ["gamecube","pc"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 3,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 128,
@@ -1032,7 +1032,7 @@ const entries = [
     generos: ["Acción","Plataformas","Shooter","Arcade"],
     top: "top15",
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 129,
@@ -1041,7 +1041,7 @@ const entries = [
     plataformas: ["ps2"],
     generos: ["Deportes"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 130,
@@ -1050,7 +1050,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Aventura","RPG","Plataformas"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 131,
@@ -1059,7 +1059,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Acción","Aventura"],
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 132,
@@ -1068,7 +1068,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Acción","Aventura"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 133,
@@ -1077,7 +1077,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 134,
@@ -1086,7 +1086,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción","Shooter"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 135,
@@ -1095,7 +1095,7 @@ const entries = [
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
     puntuacion: 4.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 136,
@@ -1104,7 +1104,7 @@ const entries = [
     plataformas: ["gba"],
     generos: ["Aventura","RPG"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 137,
@@ -1113,7 +1113,7 @@ const entries = [
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 138,
@@ -1122,7 +1122,7 @@ const entries = [
     plataformas: ["n3ds"],
     generos: ["Acción","Peleas"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 139,
@@ -1131,7 +1131,7 @@ const entries = [
     plataformas: ["gamecube","wii"],
     generos: ["Deportes"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 140,
@@ -1140,7 +1140,7 @@ const entries = [
     plataformas: ["gba","ps2"],
     generos: ["Acción","Carreras"],
     puntuacion: 3.5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 141,
@@ -1149,7 +1149,7 @@ const entries = [
     plataformas: ["arcade"],
     generos: ["Arcade"],
     puntuacion: 5,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 142,
@@ -1158,7 +1158,7 @@ const entries = [
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   },
   {
     id: 143,
@@ -1167,6 +1167,6 @@ const entries = [
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
-    fecha: "2026-08-07"
+    fecha: "2026-08-01"
   }
 ];
