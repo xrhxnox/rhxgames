@@ -894,5 +894,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 114,
+    titulo: "Mario Party 7",
+    imagen: "assets/img/mario-party-7-114.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Party"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
