@@ -623,5 +623,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 7.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 85,
+    titulo: "Ultimate Marvel vs. Capcom 3",
+    imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Lucha"],
+    puntuacion: 8.5,
+    fecha: "2026-08-07"
   }
 ];
