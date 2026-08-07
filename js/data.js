@@ -1186,5 +1186,14 @@ const entries = [
     generos: ["Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 146,
+    titulo: "The Legend of Zelda: The Wind Waker",
+    imagen: "assets/img/the-legend-of-zelda-the-wind-waker-146.jpg",
+    plataformas: ["gamecube","wiiu"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
