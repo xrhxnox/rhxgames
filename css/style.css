@@ -644,6 +644,10 @@ main {
   padding: 30px 0 50px;
 }
 
+.site-footer p {
+  margin: 4px 0;
+}
+
 .site-footer code {
   background: var(--surface);
   padding: 2px 6px;

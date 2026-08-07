@@ -14,7 +14,7 @@ const PLATFORM_GROUPS = {
       gameboy: "GB",
       gba: "GBA",
       nds: "NDS",
-      n3ds: "N3DS"
+      n3ds: "3DS"
     }
   },
   playstation: {
