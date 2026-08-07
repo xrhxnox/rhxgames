@@ -66,7 +66,7 @@ const entries = [
     imagen: "assets/img/pikmin-4-10.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","Puzzle"],
-    puntuacion: 3.5,
+    puntuacion: 4,
     fecha: "2026-08-01"
   },
   {
@@ -175,7 +175,7 @@ const entries = [
     titulo: "Mario Kart 8 Deluxe",
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
     plataformas: ["wiiu","switch"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -321,7 +321,7 @@ const entries = [
     titulo: "Mario Kart World",
     imagen: "assets/img/mario-kart-world-50.jpg",
     plataformas: ["switch2"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -541,7 +541,7 @@ const entries = [
     titulo: "Super Smash Bros Brawl",
     imagen: "assets/img/super-smash-bros-brawl-74.jpg",
     plataformas: ["wii"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -550,7 +550,7 @@ const entries = [
     titulo: "Super Smash Bros Melee",
     imagen: "assets/img/super-smash-bros-melee-75.jpg",
     plataformas: ["gamecube"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -568,7 +568,7 @@ const entries = [
     titulo: "Super Smash Bros",
     imagen: "assets/img/super-smash-bros-77.jpg",
     plataformas: ["n64"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -659,7 +659,7 @@ const entries = [
     titulo: "Super Smash Bros Ultimate",
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -695,7 +695,7 @@ const entries = [
     titulo: "Mario Kart Wii",
     imagen: "assets/img/mario-kart-wii-91.jpg",
     plataformas: ["wii"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -722,7 +722,7 @@ const entries = [
     titulo: "Super Smash Bros for Wii U",
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -848,7 +848,7 @@ const entries = [
     titulo: "Mario Kart: Double Dash!!",
     imagen: "assets/img/mario-kart-double-dash-108.jpg",
     plataformas: ["gamecube"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -965,7 +965,7 @@ const entries = [
     titulo: "Mario Kart 64",
     imagen: "assets/img/mario-kart-64-121.jpg",
     plataformas: ["n64"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1021,7 +1021,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-dx-127.jpg",
     plataformas: ["gamecube","pc"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 3,
+    puntuacion: 2.5,
     fecha: "2026-08-01"
   },
   {
@@ -1120,7 +1120,7 @@ const entries = [
     titulo: "Super Smash Bros for 3DS",
     imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
     plataformas: ["n3ds"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1202,6 +1202,15 @@ const entries = [
     imagen: "assets/img/pokken-tournament-dx-147.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Peleas","Arcade"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 148,
+    titulo: "Grand Theft Auto III",
+    imagen: "assets/img/grand-theft-auto-iii-148.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
   }
