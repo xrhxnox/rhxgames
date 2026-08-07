@@ -153,6 +153,24 @@ searchInput.addEventListener("input", () => {
   render();
 });
 
+function computeGenreTagWidth() {
+  const probe = document.createElement("span");
+  probe.className = "platform-tag genre-tag";
+  probe.style.position = "absolute";
+  probe.style.visibility = "hidden";
+  probe.style.width = "auto";
+  probe.style.whiteSpace = "nowrap";
+  document.body.appendChild(probe);
+  let max = 0;
+  GAME_GENRES.forEach(g => {
+    probe.textContent = g;
+    max = Math.max(max, probe.getBoundingClientRect().width);
+  });
+  document.body.removeChild(probe);
+  document.documentElement.style.setProperty("--genre-tag-width", `${Math.ceil(max)}px`);
+}
+computeGenreTagWidth();
+
 populateYears();
 render();
 
