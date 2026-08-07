@@ -66,7 +66,7 @@ const entries = [
     imagen: "assets/img/pikmin-4-10.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","Puzzle"],
-    puntuacion: 3.5,
+    puntuacion: 4,
     fecha: "2026-08-01"
   },
   {
