@@ -1168,5 +1168,14 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-01"
+  },
+  {
+    id: 144,
+    titulo: "Star Fox Zero",
+    imagen: "assets/img/star-fox-zero-144.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Acción","Arcade"],
+    puntuacion: 3.5,
+    fecha: "2026-08-06"
   }
 ];
