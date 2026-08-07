@@ -64,7 +64,7 @@ const PLATFORM_GROUPS = {
 const GAME_GENRES = [
   "Acción", "Aventura", "RPG", "Estrategia", "Plataformas", "Shooter",
   "Mundo abierto", "Terror", "Puzzle", "Carreras", "Peleas", "Deportes",
-  "Simulación", "Roguelike", "Party", "Indie"
+  "Simulación", "Roguelike", "Party", "Indie", "Musical"
 ];
 
 // Orden cronológico aproximado de lanzamiento, de más antigua a más nueva.

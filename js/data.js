@@ -837,7 +837,7 @@ const entries = [
     titulo: "Naruto: Ultimate Ninja Storm",
     imagen: "assets/img/naruto-ultimate-ninja-storm-107.jpg",
     plataformas: ["switch","ps3"],
-    generos: ["Aventura","Lucha"],
+    generos: ["Aventura","Peleas"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
@@ -855,7 +855,7 @@ const entries = [
     titulo: "Dragon Ball Z: Budokai Tenkaichi 3",
     imagen: "assets/img/dragon-ball-z-budokai-tenkaichi-3-109.jpg",
     plataformas: ["wii"],
-    generos: ["Lucha"],
+    generos: ["Peleas"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
