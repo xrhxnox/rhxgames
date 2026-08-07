@@ -262,6 +262,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-thousand-year-door-44.jpg",
     plataformas: ["gamecube","switch"],
     generos: ["Aventura","RPG","Estrategia"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
