@@ -175,7 +175,7 @@ const entries = [
     titulo: "Mario Kart 8 Deluxe",
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
     plataformas: ["wiiu","switch"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 5,
     fecha: "2026-08-01"
   },
