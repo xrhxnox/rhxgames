@@ -1177,5 +1177,14 @@ const entries = [
     generos: ["Acción","Arcade"],
     puntuacion: 3.5,
     fecha: "2026-08-06"
+  },
+  {
+    id: 145,
+    titulo: "Super Mario Maker",
+    imagen: "assets/img/super-mario-maker-145.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
