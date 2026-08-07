@@ -12,6 +12,7 @@ const statusEl = document.getElementById("status");
 const submitBtn = document.getElementById("submitBtn");
 const puntuacionInput = document.getElementById("puntuacion");
 const ratingPreview = document.getElementById("ratingPreview");
+const topSelect = document.getElementById("top");
 const fechaInput = document.getElementById("fecha");
 const successBanner = document.getElementById("successBanner");
 const successMessage = document.getElementById("successMessage");
@@ -72,7 +73,7 @@ function resetFormUI() {
   editingId = null;
   form.reset();
   fechaInput.valueAsDate = new Date();
-  puntuacionInput.value = 10;
+  puntuacionInput.value = 5;
   updateRatingPreview();
   imagenInput.required = true;
   currentImageHint.hidden = true;
@@ -183,7 +184,8 @@ function serializeEntries(entriesArray) {
 // plataformas: lista de claves de plataforma (ver PLATFORM_GROUPS
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
-// puntuacion: número del 0 al 10 (acepta medios puntos, ej. 7.5)
+// puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
+// top: "top5" | "top10" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -194,7 +196,8 @@ function serializeEntries(entriesArray) {
     titulo: ${JSON.stringify(e.titulo)},
     imagen: ${JSON.stringify(e.imagen)},${e.plataformas && e.plataformas.length ? `
     plataformas: ${JSON.stringify(e.plataformas)},` : ""}${e.generos && e.generos.length ? `
-    generos: ${JSON.stringify(e.generos)},` : ""}
+    generos: ${JSON.stringify(e.generos)},` : ""}${e.top ? `
+    top: ${JSON.stringify(e.top)},` : ""}
     puntuacion: ${e.puntuacion},
     fecha: ${JSON.stringify(e.fecha)}
   }`).join(",\n");
@@ -424,6 +427,7 @@ function enterEditMode(entry) {
 
   puntuacionInput.value = entry.puntuacion;
   updateRatingPreview();
+  topSelect.value = entry.top || "";
   fechaInput.value = entry.fecha;
 
   imagenInput.value = "";
@@ -531,7 +535,8 @@ form.addEventListener("submit", async (event) => {
       await uploadFile(imagePath, bufferToBase64(await compressed.arrayBuffer()), `Agregar imagen: ${titulo}`);
     }
 
-    const entryData = { id: entryId, titulo, imagen: imagePath, plataformas, generos, puntuacion, fecha };
+    const top = topSelect.value || undefined;
+    const entryData = { id: entryId, titulo, imagen: imagePath, plataformas, generos, top, puntuacion, fecha };
     const updatedEntries = isEditing
       ? currentEntries.map(e => e.id === editingId ? entryData : e)
       : [...currentEntries, entryData];

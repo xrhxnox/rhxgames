@@ -6,7 +6,8 @@
 // plataformas: lista de claves de plataforma (ver PLATFORM_GROUPS
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
-// puntuacion: número del 0 al 10 (acepta medios puntos, ej. 7.5)
+// puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
+// top: "top5" | "top10" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -18,7 +19,7 @@ const entries = [
     imagen: "assets/img/pokemon-champions-1.jpg",
     plataformas: ["switch","switch2","movil"],
     generos: ["Estrategia"],
-    puntuacion: 7,
+    puntuacion: 3.5,
     fecha: "2026-07-15"
   },
   {
@@ -27,7 +28,7 @@ const entries = [
     imagen: "assets/img/pokemon-tcg-pocket-2.jpg",
     plataformas: ["movil"],
     generos: ["Estrategia"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-07-15"
   },
   {
@@ -45,7 +46,7 @@ const entries = [
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
     generos: ["Simulación"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-07-15"
   },
   {
@@ -54,7 +55,7 @@ const entries = [
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
     generos: ["Acción"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-07-15"
   },
   {
@@ -63,7 +64,7 @@ const entries = [
     imagen: "assets/img/pikmin-4-10.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","Puzzle"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-07-15"
   },
   {
@@ -72,7 +73,7 @@ const entries = [
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
     generos: ["RPG","Aventura"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-07-15"
   },
   {
@@ -81,7 +82,7 @@ const entries = [
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-07-15"
   },
   {
@@ -90,7 +91,7 @@ const entries = [
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG","Mundo abierto"],
-    puntuacion: 6.5,
+    puntuacion: 3.5,
     fecha: "2026-07-15"
   },
   {
@@ -99,7 +100,7 @@ const entries = [
     imagen: "assets/img/pokemon-legends-za-19.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","RPG","Estrategia"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-07-15"
   },
   {
@@ -108,7 +109,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
     generos: ["Acción","Aventura","Mundo abierto"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-07-15"
   },
   {
@@ -117,7 +118,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-bananza-26.jpg",
     plataformas: ["switch2"],
     generos: ["Plataformas","Aventura"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-07-15"
   },
   {
@@ -126,7 +127,7 @@ const entries = [
     imagen: "assets/img/pokemon-sword-27.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 6,
+    puntuacion: 3,
     fecha: "2026-07-15"
   },
   {
@@ -135,7 +136,7 @@ const entries = [
     imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 5,
+    puntuacion: 2.5,
     fecha: "2026-07-15"
   },
   {
@@ -144,7 +145,7 @@ const entries = [
     imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-07-15"
   },
   {
@@ -153,7 +154,7 @@ const entries = [
     imagen: "assets/img/fire-emblem-engange-32.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","RPG"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-07-15"
   },
   {
@@ -162,7 +163,7 @@ const entries = [
     imagen: "assets/img/pokemon-let-s-go-pikachu-33.jpg",
     plataformas: ["switch"],
     generos: ["RPG","Aventura"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-07-15"
   },
   {
@@ -171,7 +172,7 @@ const entries = [
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Carreras"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -180,7 +181,7 @@ const entries = [
     imagen: "assets/img/super-mario-odyssey-35.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -189,7 +190,7 @@ const entries = [
     imagen: "assets/img/mario-tennis-aces-36.jpg",
     plataformas: ["switch"],
     generos: ["Deportes"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -198,7 +199,7 @@ const entries = [
     imagen: "assets/img/travis-strikes-again-no-more-heroes-37.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Roguelike"],
-    puntuacion: 6.5,
+    puntuacion: 3.5,
     fecha: "2026-08-06"
   },
   {
@@ -207,7 +208,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-origami-king-38.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -216,7 +217,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-39.jpg",
     plataformas: ["wii","switch"],
     generos: ["Acción"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -225,7 +226,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-2-desperate-struggle-40.jpg",
     plataformas: ["wii","switch"],
     generos: ["Acción"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -234,7 +235,7 @@ const entries = [
     imagen: "assets/img/super-mario-rpg-41.jpg",
     plataformas: ["snes","switch"],
     generos: ["Aventura","RPG"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -243,7 +244,7 @@ const entries = [
     imagen: "assets/img/super-mario-galaxy-42.jpg",
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -252,7 +253,7 @@ const entries = [
     imagen: "assets/img/super-mario-galaxy-2-43.jpg",
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -261,7 +262,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-thousand-year-door-44.jpg",
     plataformas: ["gamecube","switch"],
     generos: ["Aventura","RPG","Estrategia"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -270,7 +271,7 @@ const entries = [
     imagen: "assets/img/super-mario-3d-all-stars-45.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 7.5,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -279,7 +280,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-iii-46.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción"],
-    puntuacion: 7.5,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -288,7 +289,7 @@ const entries = [
     imagen: "assets/img/skate-47.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -297,7 +298,7 @@ const entries = [
     imagen: "assets/img/mario-strikers-battle-league-48.jpg",
     plataformas: ["switch"],
     generos: ["Deportes"],
-    puntuacion: 6,
+    puntuacion: 3,
     fecha: "2026-08-06"
   },
   {
@@ -306,7 +307,7 @@ const entries = [
     imagen: "assets/img/mario-golf-super-rush-49.jpg",
     plataformas: ["switch"],
     generos: ["Deportes"],
-    puntuacion: 7.5,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -315,7 +316,7 @@ const entries = [
     imagen: "assets/img/mario-kart-world-50.jpg",
     plataformas: ["switch2"],
     generos: ["Mundo abierto","Carreras"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -324,7 +325,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
     plataformas: ["gamecube","pc"],
     generos: ["Acción","Aventura","Plataformas"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -333,7 +334,7 @@ const entries = [
     imagen: "assets/img/monster-hunter-rise-52.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción","Aventura","RPG"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -342,7 +343,7 @@ const entries = [
     imagen: "assets/img/splatoon-3-53.jpg",
     plataformas: ["switch2"],
     generos: ["Acción","Aventura","Shooter"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -351,7 +352,7 @@ const entries = [
     imagen: "assets/img/super-mario-bros-wonder-54.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -360,7 +361,7 @@ const entries = [
     imagen: "assets/img/pokemon-unite-55.jpg",
     plataformas: ["switch","movil"],
     generos: ["Estrategia"],
-    puntuacion: 6,
+    puntuacion: 3,
     fecha: "2026-08-06"
   },
   {
@@ -369,7 +370,7 @@ const entries = [
     imagen: "assets/img/pokemon-heartgold-56.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","RPG"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -378,7 +379,7 @@ const entries = [
     imagen: "assets/img/pokemon-black-2-57.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","RPG"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -387,7 +388,7 @@ const entries = [
     imagen: "assets/img/pokemon-y-58.jpg",
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -396,7 +397,7 @@ const entries = [
     imagen: "assets/img/hades-59.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción","Roguelike"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -405,7 +406,7 @@ const entries = [
     imagen: "assets/img/hollow-knight-60.jpg",
     plataformas: ["switch","switch2","pc"],
     generos: ["Acción","Aventura","Indie"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -414,7 +415,7 @@ const entries = [
     imagen: "assets/img/kirby-and-the-forgotten-land-61.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -423,7 +424,7 @@ const entries = [
     imagen: "assets/img/hyrule-warriors-age-of-calamity-62.jpg",
     plataformas: ["switch"],
     generos: ["Acción","RPG"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -432,7 +433,7 @@ const entries = [
     imagen: "assets/img/mario-vs-donkey-kong-63.jpg",
     plataformas: ["switch","gba"],
     generos: ["Estrategia","Puzzle"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -441,7 +442,7 @@ const entries = [
     imagen: "assets/img/super-mario-party-jamboree-64.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Party"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -450,7 +451,7 @@ const entries = [
     imagen: "assets/img/super-mario-sunshine-65.jpg",
     plataformas: ["gamecube"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -459,7 +460,7 @@ const entries = [
     imagen: "assets/img/super-mario-64-66.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -468,7 +469,7 @@ const entries = [
     imagen: "assets/img/super-mario-world-67.jpg",
     plataformas: ["snes"],
     generos: ["Plataformas"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -477,7 +478,7 @@ const entries = [
     imagen: "assets/img/tony-hawk-s-pro-skater-1-2-68.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -486,7 +487,7 @@ const entries = [
     imagen: "assets/img/sonic-heroes-69.jpg",
     plataformas: ["gamecube","ps2"],
     generos: ["Acción","Aventura","Plataformas"],
-    puntuacion: 7.5,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -495,7 +496,7 @@ const entries = [
     imagen: "assets/img/pokemon-stadium-70.jpg",
     plataformas: ["n64"],
     generos: ["RPG"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -504,7 +505,7 @@ const entries = [
     imagen: "assets/img/call-of-duty-black-ops-71.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Shooter"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -513,7 +514,7 @@ const entries = [
     imagen: "assets/img/call-of-duty-black-ops-ii-72.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Shooter"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -522,7 +523,7 @@ const entries = [
     imagen: "assets/img/punch-out-73.jpg",
     plataformas: ["wii"],
     generos: ["Acción","Lucha"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -531,7 +532,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-brawl-74.jpg",
     plataformas: ["wii"],
     generos: ["Acción","Lucha"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -540,7 +541,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-melee-75.jpg",
     plataformas: ["gamecube"],
     generos: ["Acción","Lucha"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -549,7 +550,7 @@ const entries = [
     imagen: "assets/img/dmc-devil-may-cry-76.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -558,7 +559,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-77.jpg",
     plataformas: ["n64"],
     generos: ["Acción","Lucha"],
-    puntuacion: 8,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -567,7 +568,7 @@ const entries = [
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
-    puntuacion: 10,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -576,7 +577,7 @@ const entries = [
     imagen: "assets/img/dragon-ball-sparking-zero-79.jpg",
     plataformas: ["pc"],
     generos: ["Acción","Lucha"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -585,7 +586,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-tears-of-the-kingdom-80.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Acción","Aventura","Mundo abierto"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -594,7 +595,7 @@ const entries = [
     imagen: "assets/img/cuphead-81.jpg",
     plataformas: ["switch","pc"],
     generos: ["Plataformas","Shooter"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -603,7 +604,7 @@ const entries = [
     imagen: "assets/img/portal-2-82.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
-    puntuacion: 9.5,
+    puntuacion: 5,
     fecha: "2026-08-06"
   },
   {
@@ -612,7 +613,7 @@ const entries = [
     imagen: "assets/img/new-super-mario-bros-wii-83.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 9,
+    puntuacion: 4.5,
     fecha: "2026-08-06"
   },
   {
@@ -621,7 +622,7 @@ const entries = [
     imagen: "assets/img/top-spin-2k25-84.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
-    puntuacion: 7.5,
+    puntuacion: 4,
     fecha: "2026-08-06"
   },
   {
@@ -630,7 +631,7 @@ const entries = [
     imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
     plataformas: ["xbox360"],
     generos: ["Lucha"],
-    puntuacion: 8.5,
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   }
 ];

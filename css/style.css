@@ -540,6 +540,14 @@ main {
   z-index: 1;
 }
 
+.top-star {
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.top-star.top5 { color: #facc15; }
+.top-star.top10 { color: #3b82f6; }
+
 .card .overlay {
   position: absolute;
   inset: 0;

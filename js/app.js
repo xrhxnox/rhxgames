@@ -33,6 +33,12 @@ function genreTagsMarkup(entry) {
   return tags ? `<div class="genre-tags">${tags}</div>` : "";
 }
 
+function topBadgeMarkup(entry) {
+  if (!entry.top) return "";
+  const label = entry.top === "top5" ? "Top 5" : "Top 10";
+  return `<i class="fa-solid fa-star top-star ${entry.top}" title="${label}" aria-label="${label}"></i> `;
+}
+
 function cardMarkup(entry) {
   const year = entry.fecha ? entry.fecha.slice(0, 4) : "";
   const fechaLegible = entry.fecha
@@ -45,10 +51,10 @@ function cardMarkup(entry) {
       <img src="${entry.imagen}" alt="${entry.titulo}" loading="lazy">
       ${platformTagsMarkup(entry)}
       ${genreTagsMarkup(entry)}
-      <div class="title-bar">${entry.titulo}</div>
+      <div class="title-bar">${topBadgeMarkup(entry)}${entry.titulo}</div>
       <div class="overlay">
         <div class="overlay-title">${entry.titulo}</div>
-        <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 10">${starsMarkup(entry.puntuacion)}<span class="rating-number">(${entry.puntuacion % 1 === 0 ? entry.puntuacion : entry.puntuacion.toFixed(1)})</span></div>
+        <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 5">${starsMarkup(entry.puntuacion)}<span class="rating-number">(${entry.puntuacion % 1 === 0 ? entry.puntuacion : entry.puntuacion.toFixed(1)})</span></div>
         ${fechaLegible ? `<div class="fecha">Publicado el ${fechaLegible}</div>` : ""}
       </div>
     </article>

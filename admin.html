@@ -86,10 +86,19 @@
       </fieldset>
 
       <label>
-        Puntuación (0 a 10)
-        <input type="number" id="puntuacion" min="0" max="10" step="0.5" value="10" required>
+        Puntuación (0 a 5)
+        <input type="number" id="puntuacion" min="0" max="5" step="0.5" value="5" required>
       </label>
       <div class="rating-preview" id="ratingPreview"></div>
+
+      <label>
+        Top
+        <select id="top">
+          <option value="">Ninguno</option>
+          <option value="top5">★ Top 5</option>
+          <option value="top10">★ Top 10</option>
+        </select>
+      </label>
 
       <label>
         Fecha de publicación
