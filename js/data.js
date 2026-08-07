@@ -637,5 +637,77 @@ const entries = [
     generos: ["Lucha"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 86,
+    titulo: "Super Mario Party",
+    imagen: "assets/img/super-mario-party-86.jpg",
+    plataformas: ["switch"],
+    generos: ["Party"],
+    puntuacion: 2.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 87,
+    titulo: "Super Smash Bros Ultimate",
+    imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 88,
+    titulo: "The Legend of Zelda: Link's Awakening",
+    imagen: "assets/img/the-legend-of-zelda-link-s-awakening-88.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 89,
+    titulo: "Scott Pilgrim vs. the World: The Game",
+    imagen: "assets/img/scott-pilgrim-vs-the-world-the-game-89.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Acción"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 90,
+    titulo: "Mario Party Superstars",
+    imagen: "assets/img/mario-party-superstars-90.jpg",
+    plataformas: ["switch"],
+    generos: ["Party"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 91,
+    titulo: "Mario Kart Wii",
+    imagen: "assets/img/mario-kart-wii-91.jpg",
+    plataformas: ["wii"],
+    generos: ["Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 92,
+    titulo: "Assasins Creed II",
+    imagen: "assets/img/assasins-creed-ii-92.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 93,
+    titulo: "Grand Theft Auto V",
+    imagen: "assets/img/grand-theft-auto-v-93.jpg",
+    plataformas: ["xbox360","pc"],
+    generos: ["Acción","Mundo abierto"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
