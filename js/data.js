@@ -449,7 +449,7 @@ const entries = [
     titulo: "Super Mario Party Jamboree",
     imagen: "assets/img/super-mario-party-jamboree-64.jpg",
     plataformas: ["switch","switch2"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -650,7 +650,7 @@ const entries = [
     titulo: "Super Mario Party",
     imagen: "assets/img/super-mario-party-86.jpg",
     plataformas: ["switch"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -686,7 +686,7 @@ const entries = [
     titulo: "Mario Party Superstars",
     imagen: "assets/img/mario-party-superstars-90.jpg",
     plataformas: ["switch"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -803,7 +803,7 @@ const entries = [
     titulo: "Mario Party 10",
     imagen: "assets/img/mario-party-10-103.jpg",
     plataformas: ["wiiu"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 1,
     fecha: "2026-08-01"
   },
@@ -893,7 +893,7 @@ const entries = [
     titulo: "Mario Party 5",
     imagen: "assets/img/mario-party-5-113.jpg",
     plataformas: ["gamecube"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -902,7 +902,7 @@ const entries = [
     titulo: "Mario Party 7",
     imagen: "assets/img/mario-party-7-114.jpg",
     plataformas: ["gamecube"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -929,7 +929,7 @@ const entries = [
     titulo: "Mario Party 3",
     imagen: "assets/img/mario-party-3-117.jpg",
     plataformas: ["n64"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -938,7 +938,7 @@ const entries = [
     titulo: "Mario Party 2",
     imagen: "assets/img/mario-party-2-118.jpg",
     plataformas: ["n64"],
-    generos: ["Party"],
+    generos: ["Party","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
