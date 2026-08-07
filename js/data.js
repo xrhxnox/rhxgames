@@ -686,7 +686,7 @@ const entries = [
     imagen: "assets/img/mario-party-superstars-90.jpg",
     plataformas: ["switch"],
     generos: ["Party"],
-    puntuacion: 4,
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   },
   {
