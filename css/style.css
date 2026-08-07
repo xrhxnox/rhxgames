@@ -380,6 +380,7 @@ main {
 .filter-btn[data-filter="xbox"]:hover i, .filter-btn[data-filter="xbox"].active i { color: var(--plat-xbox); }
 .filter-btn[data-filter="pc"]:hover i, .filter-btn[data-filter="pc"].active i { color: var(--plat-pc); }
 .filter-btn[data-filter="mobile"]:hover i, .filter-btn[data-filter="mobile"].active i { color: var(--plat-mobile); }
+.filter-btn[data-filter="top"]:hover i, .filter-btn[data-filter="top"].active i { color: #facc15; }
 
 .filter-btn.active {
   color: var(--text);
@@ -397,6 +398,7 @@ main {
 .filter-btn[data-filter="xbox"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-xbox); }
 .filter-btn[data-filter="pc"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-pc); }
 .filter-btn[data-filter="mobile"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-mobile); }
+.filter-btn[data-filter="top"].active .filter-icon { box-shadow: 0 0 0 2px #facc15; }
 
 .selects-row {
   display: flex;

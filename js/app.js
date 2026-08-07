@@ -97,7 +97,7 @@ function renderPagination(totalPages) {
 function render() {
   const filtered = entries.filter(e => {
     const groups = (e.plataformas || []).map(p => PLATFORM_GROUP_OF[p]);
-    const matchFilter = activeFilter === "todos" || groups.includes(activeFilter);
+    const matchFilter = activeFilter === "todos" || (activeFilter === "top" ? !!e.top : groups.includes(activeFilter));
     const matchYear = activeYear === "todos" || (e.fecha && e.fecha.slice(0, 4) === activeYear);
     const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchFilter && matchYear && matchSearch;
@@ -109,6 +109,11 @@ function render() {
     filtered.sort((a, b) => a.puntuacion - b.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
   } else {
     filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
+  }
+
+  if (activeFilter === "top") {
+    const topRank = t => t === "top5" ? 0 : 1;
+    filtered.sort((a, b) => topRank(a.top) - topRank(b.top));
   }
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
