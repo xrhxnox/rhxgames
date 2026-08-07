@@ -568,7 +568,7 @@ const entries = [
     titulo: "Super Smash Bros",
     imagen: "assets/img/super-smash-bros-77.jpg",
     plataformas: ["n64"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
