@@ -35,13 +35,13 @@ function genreTagsMarkup(entry) {
 
 function topBadgeMarkup(entry) {
   if (!entry.top) return "";
-  const label = entry.top === "top5" ? "Top 5" : "Top 10";
+  const label = entry.top === "top5" ? "Top 5" : "Top 15";
   return `<span class="top-badge ${entry.top}" title="${label}" aria-label="${label}"><i class="fa-solid fa-star"></i></span>`;
 }
 
 function overlayTopMarkup(entry) {
   if (!entry.top) return "";
-  const label = entry.top === "top5" ? "Top 5" : "Top 10";
+  const label = entry.top === "top5" ? "Top 5" : "Top 15";
   return `<div class="overlay-top ${entry.top}"><i class="fa-solid fa-star"></i> ${label}</div>`;
 }
 

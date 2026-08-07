@@ -185,7 +185,7 @@ function serializeEntries(entriesArray) {
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
-// top: "top5" | "top10" | ausente si no aplica
+// top: "top5" | "top15" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================

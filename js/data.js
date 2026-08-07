@@ -7,7 +7,7 @@
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
-// top: "top5" | "top10" | ausente si no aplica
+// top: "top5" | "top15" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -46,7 +46,7 @@ const entries = [
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
     generos: ["Simulación"],
-    top: "top10",
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
@@ -218,7 +218,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-39.jpg",
     plataformas: ["wii","switch"],
     generos: ["Acción"],
-    top: "top10",
+    top: "top15",
     puntuacion: 3.5,
     fecha: "2026-08-06"
   },
@@ -328,7 +328,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
     plataformas: ["gamecube","xbox360","pc"],
     generos: ["Acción","Aventura","Plataformas"],
-    top: "top10",
+    top: "top15",
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -573,7 +573,7 @@ const entries = [
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
-    top: "top10",
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-08-06"
   },

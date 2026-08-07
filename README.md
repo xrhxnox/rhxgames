@@ -14,7 +14,7 @@ Catálogo personal de videojuegos que voy terminando, con calificación por estr
   imagen: "assets/img/mi-imagen.jpg",
   plataformas: ["switch", "pc"], // ver PLATFORM_GROUPS en js/utils.js
   generos: ["RPG", "Aventura"],   // ver GAME_GENRES en js/utils.js
-  top: "top5", // "top5" | "top10" | omitir si no aplica
+  top: "top5", // "top5" | "top15" | omitir si no aplica
   puntuacion: 4.5, // de 0 a 5, acepta medios puntos
   fecha: "2026-07-17" // fecha de publicación
 }
