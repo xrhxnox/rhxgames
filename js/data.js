@@ -18,7 +18,7 @@ const entries = [
     titulo: "Pokémon Champions",
     imagen: "assets/img/pokemon-champions-1.jpg",
     plataformas: ["switch","switch2","movil"],
-    generos: ["Estrategia"],
+    generos: ["Estrategia","Online"],
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
