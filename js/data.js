@@ -523,7 +523,7 @@ const entries = [
     titulo: "Call of Duty: Black Ops II",
     imagen: "assets/img/call-of-duty-black-ops-ii-72.jpg",
     plataformas: ["xbox360","pc"],
-    generos: ["Acción","Shooter"],
+    generos: ["Acción","Shooter","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
