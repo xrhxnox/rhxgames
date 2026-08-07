@@ -55,7 +55,7 @@ const entries = [
     titulo: "Star Fox",
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
-    generos: ["Acción"],
+    generos: ["Acción","Arcade"],
     puntuacion: 4,
     fecha: "2026-07-15"
   },
@@ -676,7 +676,7 @@ const entries = [
     titulo: "Scott Pilgrim vs. the World: The Game",
     imagen: "assets/img/scott-pilgrim-vs-the-world-the-game-89.jpg",
     plataformas: ["switch","xbox360"],
-    generos: ["Acción"],
+    generos: ["Acción","Arcade"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
   },
@@ -1026,8 +1026,8 @@ const entries = [
     id: 128,
     titulo: "Metal Slug X",
     imagen: "assets/img/metal-slug-x-128.jpg",
-    plataformas: ["switch","pc"],
-    generos: ["Acción","Plataformas","Shooter"],
+    plataformas: ["switch","pc","arcade"],
+    generos: ["Acción","Plataformas","Shooter","Arcade"],
     top: "top15",
     puntuacion: 5,
     fecha: "2026-08-07"
