@@ -44,8 +44,8 @@ const entries = [
     id: 4,
     titulo: "Animal Crossing: New Horizons",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
-    plataformas: ["gamecube","wii","switch","switch2","nds","pc"],
-    generos: ["Acción","Aventura","RPG","Estrategia","Plataformas","Simulación"],
+    plataformas: ["switch","switch2"],
+    generos: ["Simulación"],
     top: "top10",
     puntuacion: 5,
     fecha: "2026-07-15"
@@ -199,7 +199,7 @@ const entries = [
     titulo: "Travis Strikes Again: No More Heroes",
     imagen: "assets/img/travis-strikes-again-no-more-heroes-37.jpg",
     plataformas: ["switch"],
-    generos: ["Acción","Roguelike"],
+    generos: ["Acción"],
     puntuacion: 2.5,
     fecha: "2026-08-06"
   },
@@ -216,8 +216,8 @@ const entries = [
     id: 39,
     titulo: "No More Heroes",
     imagen: "assets/img/no-more-heroes-39.jpg",
-    plataformas: ["gamecube","wii","switch","nds"],
-    generos: ["Acción","Aventura","RPG","Estrategia"],
+    plataformas: ["wii","switch"],
+    generos: ["Acción"],
     top: "top10",
     puntuacion: 3.5,
     fecha: "2026-08-06"
@@ -327,7 +327,7 @@ const entries = [
     titulo: "Sonic Adventure 2: Battle",
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
     plataformas: ["gamecube","xbox360","pc"],
-    generos: ["Acción","Aventura","Plataformas","Mundo abierto"],
+    generos: ["Acción","Aventura","Plataformas"],
     top: "top10",
     puntuacion: 4,
     fecha: "2026-08-06"
@@ -372,7 +372,7 @@ const entries = [
     id: 56,
     titulo: "Pokémon HeartGold",
     imagen: "assets/img/pokemon-heartgold-56.jpg",
-    plataformas: ["gamecube","switch","nds"],
+    plataformas: ["nds"],
     generos: ["Aventura","RPG","Estrategia"],
     top: "top5",
     puntuacion: 5,
@@ -710,6 +710,33 @@ const entries = [
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Mundo abierto"],
     puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 94,
+    titulo: "Super Smash Bross for Wii U",
+    imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 95,
+    titulo: "Mario Tennis Ultra Smash",
+    imagen: "assets/img/mario-tennis-ultra-smash-95.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Deportes"],
+    puntuacion: 1.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 96,
+    titulo: "Mario Kart DS",
+    imagen: "assets/img/mario-kart-ds-96.jpg",
+    plataformas: ["nds"],
+    generos: ["Carreras"],
+    puntuacion: 4,
     fecha: "2026-08-07"
   }
 ];
