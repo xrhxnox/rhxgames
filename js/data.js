@@ -847,7 +847,7 @@ const entries = [
     imagen: "assets/img/mario-kart-double-dash-108.jpg",
     plataformas: ["gamecube"],
     generos: ["Carreras"],
-    puntuacion: 3,
+    puntuacion: 3.5,
     fecha: "2026-08-07"
   },
   {
