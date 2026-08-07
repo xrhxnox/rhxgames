@@ -921,5 +921,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 117,
+    titulo: "Mario Party 3",
+    imagen: "assets/img/mario-party-3-117.jpg",
+    plataformas: ["n64"],
+    generos: ["Party"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
