@@ -640,7 +640,7 @@ const entries = [
     titulo: "Ultimate Marvel vs. Capcom 3",
     imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
     plataformas: ["xbox360"],
-    generos: ["Peleas"],
+    generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
