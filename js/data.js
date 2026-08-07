@@ -957,5 +957,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 121,
+    titulo: "Mario Kart 64",
+    imagen: "assets/img/mario-kart-64-121.jpg",
+    plataformas: ["n64"],
+    generos: ["Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
