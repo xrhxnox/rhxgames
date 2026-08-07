@@ -60,7 +60,7 @@ const PLATFORM_GROUPS = {
   },
   arcade: {
     label: "Arcade",
-    icon: "fa-solid fa-gamepad",
+    icon: "fa-solid fa-ghost",
     color: "#f97316",
     items: {
       arcade: "Arcade"
