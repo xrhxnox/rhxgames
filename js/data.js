@@ -44,8 +44,9 @@ const entries = [
     id: 4,
     titulo: "Animal Crossing: New Horizons",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
-    plataformas: ["switch","switch2"],
-    generos: ["Simulación"],
+    plataformas: ["gamecube","wii","switch","switch2","nds","pc"],
+    generos: ["Acción","Aventura","RPG","Estrategia","Plataformas","Simulación"],
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
