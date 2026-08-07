@@ -784,5 +784,50 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 102,
+    titulo: "Grand Theft Auto San Andreas",
+    imagen: "assets/img/grand-theft-auto-san-andreas-102.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción","Mundo abierto"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 103,
+    titulo: "Mario Party 10",
+    imagen: "assets/img/mario-party-10-103.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Party"],
+    puntuacion: 1,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 104,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm Generations",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-generations-104.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Lucha"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 105,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm 2",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-2-105.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 106,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm 4",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-4-106.jpg",
+    plataformas: ["switch"],
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
