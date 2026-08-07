@@ -1012,5 +1012,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 127,
+    titulo: "Sonic Adventure DX",
+    imagen: "assets/img/sonic-adventure-dx-127.jpg",
+    plataformas: ["gamecube","pc"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
   }
 ];
