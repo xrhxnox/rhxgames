@@ -1049,5 +1049,14 @@ const entries = [
     generos: ["Aventura","RPG","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 131,
+    titulo: "The Legend of Zelda: Ocarina of Time",
+    imagen: "assets/img/the-legend-of-zelda-ocarina-of-time-131.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
