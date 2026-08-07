@@ -802,5 +802,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 1,
     fecha: "2026-08-07"
+  },
+  {
+    id: 104,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm Generations",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-generations-104.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Lucha"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
   }
 ];
