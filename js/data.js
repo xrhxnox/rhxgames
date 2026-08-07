@@ -723,7 +723,7 @@ const entries = [
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
     generos: ["Acción","Peleas"],
-    puntuacion: 5,
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   },
   {
