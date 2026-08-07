@@ -820,5 +820,13 @@ const entries = [
     generos: ["Lucha"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 106,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm 4",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-4-106.jpg",
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
