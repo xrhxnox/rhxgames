@@ -1131,5 +1131,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 140,
+    titulo: "The Simpsons: Road Rage",
+    imagen: "assets/img/the-simpsons-road-rage-140.jpg",
+    plataformas: ["gba","ps2"],
+    generos: ["Acción","Carreras"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
