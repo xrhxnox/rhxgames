@@ -829,5 +829,14 @@ const entries = [
     generos: ["Lucha"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 107,
+    titulo: "Naruto: Ultimate Ninja Storm",
+    imagen: "assets/img/naruto-ultimate-ninja-storm-107.jpg",
+    plataformas: ["switch","ps3"],
+    generos: ["Aventura","Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
