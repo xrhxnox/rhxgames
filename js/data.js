@@ -513,7 +513,7 @@ const entries = [
     id: 71,
     titulo: "Call of Duty: Black Ops",
     imagen: "assets/img/call-of-duty-black-ops-71.jpg",
-    plataformas: ["xbox360","pc"],
+    plataformas: ["wii","xbox360","pc"],
     generos: ["Acción","Shooter"],
     puntuacion: 4,
     fecha: "2026-08-06"
