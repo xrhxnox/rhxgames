@@ -1140,5 +1140,14 @@ const entries = [
     generos: ["Acción","Carreras"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 141,
+    titulo: "The Simpsons",
+    imagen: "assets/img/the-simpsons-141.jpg",
+    plataformas: ["arcade"],
+    generos: ["Arcade"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
