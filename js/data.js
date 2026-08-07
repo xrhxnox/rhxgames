@@ -321,7 +321,7 @@ const entries = [
     titulo: "Mario Kart World",
     imagen: "assets/img/mario-kart-world-50.jpg",
     plataformas: ["switch2"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
