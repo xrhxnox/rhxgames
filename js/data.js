@@ -83,7 +83,7 @@ const entries = [
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
-    top: "top10",
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
@@ -772,7 +772,7 @@ const entries = [
     imagen: "assets/img/spider-man-100.jpg",
     plataformas: ["pc"],
     generos: ["Acción"],
-    top: "top10",
+    top: "top15",
     puntuacion: 4,
     fecha: "2026-08-07"
   },
