@@ -849,5 +849,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 3,
     fecha: "2026-08-07"
+  },
+  {
+    id: 109,
+    titulo: "Dragon Ball Z: Budokai Tenkaichi 3",
+    imagen: "assets/img/dragon-ball-z-budokai-tenkaichi-3-109.jpg",
+    plataformas: ["wii"],
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
