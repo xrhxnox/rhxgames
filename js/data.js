@@ -1031,5 +1031,14 @@ const entries = [
     top: "top15",
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 129,
+    titulo: "SSX Tricky",
+    imagen: "assets/img/ssx-tricky-129.jpg",
+    plataformas: ["ps2"],
+    generos: ["Deportes"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
