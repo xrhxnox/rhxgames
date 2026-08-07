@@ -1086,5 +1086,14 @@ const entries = [
     generos: ["Acción","Shooter"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 135,
+    titulo: "Marvel vs. Capcom 2: New Age of Heroes",
+    imagen: "assets/img/marvel-vs-capcom-2-new-age-of-heroes-135.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
   }
 ];
