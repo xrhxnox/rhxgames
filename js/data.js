@@ -1077,5 +1077,14 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 134,
+    titulo: "Call of Duty: Modern Warfare 3",
+    imagen: "assets/img/call-of-duty-modern-warfare-3-134.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Shooter"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
