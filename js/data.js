@@ -765,5 +765,15 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 1.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 100,
+    titulo: "Spider-Man",
+    imagen: "assets/img/spider-man-100.jpg",
+    plataformas: ["pc"],
+    generos: ["Acción"],
+    top: "top10",
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
