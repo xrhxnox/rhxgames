@@ -726,6 +726,7 @@ const entries = [
     titulo: "Mario Tennis Ultra Smash",
     imagen: "assets/img/mario-tennis-ultra-smash-95.jpg",
     plataformas: ["wiiu"],
+    generos: ["Deportes"],
     puntuacion: 1.5,
     fecha: "2026-08-07"
   },
