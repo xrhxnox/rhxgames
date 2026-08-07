@@ -134,18 +134,46 @@ function render() {
   renderPagination(totalPages);
 }
 
-consoleFilters.innerHTML = PLATFORM_ORDER.map(key => {
-  const label = PLATFORM_LABELS[key] || key;
-  const color = PLATFORM_COLORS[key] || "#9aa1ac";
-  return `<button class="console-filter-btn" data-filter="${key}" style="--platform-color:${color}">${label}</button>`;
-}).join("");
+function getDisplayBrand() {
+  const brand = PLATFORM_GROUPS[activeFilter] ? activeFilter : PLATFORM_GROUP_OF[activeFilter];
+  if (!brand) return null;
+  const group = PLATFORM_GROUPS[brand];
+  if (!group || Object.keys(group.items).length <= 1) return null;
+  return brand;
+}
+
+function updateConsoleRow() {
+  const brand = getDisplayBrand();
+  if (!brand) {
+    consoleFilters.hidden = true;
+    consoleFilters.innerHTML = "";
+    return;
+  }
+  const keys = Object.keys(PLATFORM_GROUPS[brand].items).sort(
+    (a, b) => platformSortIndex(a) - platformSortIndex(b)
+  );
+  consoleFilters.innerHTML = keys.map(key => {
+    const label = PLATFORM_LABELS[key] || key;
+    const color = PLATFORM_COLORS[key] || "#9aa1ac";
+    const isActive = key === activeFilter ? " active" : "";
+    return `<button class="console-filter-btn${isActive}" data-filter="${key}" style="--platform-color:${color}">${label}</button>`;
+  }).join("");
+  consoleFilters.hidden = false;
+}
+
+function updateFilterActiveStates() {
+  const brand = getDisplayBrand();
+  document.querySelectorAll(".filter-btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.filter === activeFilter || (brand !== null && b.dataset.filter === brand));
+  });
+}
 
 controls.addEventListener("click", (event) => {
   const btn = event.target.closest("[data-filter]");
   if (!btn) return;
-  controls.querySelectorAll("[data-filter]").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
   activeFilter = btn.dataset.filter;
+  updateFilterActiveStates();
+  updateConsoleRow();
   currentPage = 1;
   render();
 });
@@ -185,6 +213,7 @@ function computeGenreTagWidth() {
   document.documentElement.style.setProperty("--genre-tag-width", `${Math.ceil(max)}px`);
 }
 computeGenreTagWidth();
+updateConsoleRow();
 
 populateYears();
 render();
