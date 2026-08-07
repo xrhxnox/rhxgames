@@ -5,6 +5,7 @@ const consoleFilters = document.getElementById("consoleFilters");
 const yearSelect = document.getElementById("year");
 const sortSelect = document.getElementById("sortSelect");
 const searchInput = document.getElementById("searchInput");
+const clearSearchBtn = document.getElementById("clearSearchBtn");
 const pagination = document.getElementById("pagination");
 
 const PAGE_SIZE = 16;
@@ -192,7 +193,17 @@ sortSelect.addEventListener("change", () => {
 
 searchInput.addEventListener("input", () => {
   activeSearch = foldAccents(searchInput.value.trim().toLowerCase());
+  clearSearchBtn.hidden = !searchInput.value;
   currentPage = 1;
+  render();
+});
+
+clearSearchBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  activeSearch = "";
+  clearSearchBtn.hidden = true;
+  currentPage = 1;
+  searchInput.focus();
   render();
 });
 

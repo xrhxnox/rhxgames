@@ -302,6 +302,21 @@ main {
   color: var(--text-dim);
 }
 
+.clear-search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.clear-search-btn:hover i {
+  color: var(--text);
+}
+
 .controls {
   display: flex;
   flex-direction: column;
