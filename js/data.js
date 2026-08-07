@@ -700,5 +700,14 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 93,
+    titulo: "Grand Theft Auto V",
+    imagen: "assets/img/grand-theft-auto-v-93.jpg",
+    plataformas: ["xbox360","pc"],
+    generos: ["Acción","Mundo abierto"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
