@@ -711,5 +711,14 @@ const entries = [
     generos: ["Acción","Mundo abierto"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 94,
+    titulo: "Super Smash Bross for Wii U",
+    imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
