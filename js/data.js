@@ -976,5 +976,14 @@ const entries = [
     generos: ["Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 123,
+    titulo: "Donkey Kong Country Returns",
+    imagen: "assets/img/donkey-kong-country-returns-123.jpg",
+    plataformas: ["wii","switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
