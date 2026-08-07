@@ -713,7 +713,8 @@ main {
 }
 
 .status-form select,
-.status-form input[type="text"] {
+.status-form input[type="text"],
+.status-form input[type="file"] {
   background: var(--bg);
   color: var(--text);
   border: none;
@@ -721,6 +722,14 @@ main {
   padding: 8px 10px;
   font-size: 0.85rem;
   font-family: inherit;
+}
+
+.status-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
 }
 
 .status-form-actions {

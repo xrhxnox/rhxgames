@@ -20,6 +20,24 @@
 
     <section class="status-section">
       <div class="entries-header">
+        <h2>Perfil</h2>
+      </div>
+      <p class="entries-hint" id="profileFormHint">Ingresa tu token y presiona "Actualizar" en Mis juegos para cargar la bio actual.</p>
+      <div class="status-form" id="profileForm" hidden>
+        <input type="text" id="profileBioInput" placeholder="Bio del perfil" maxlength="120">
+        <label>
+          Foto de perfil nueva (opcional)
+          <input type="file" id="profileFotoInput" accept="image/*">
+        </label>
+        <div class="status-form-actions">
+          <button type="button" id="saveProfileBtn" class="text-btn">Guardar perfil</button>
+        </div>
+        <p class="status" id="profileFormStatus"></p>
+      </div>
+    </section>
+
+    <section class="status-section">
+      <div class="entries-header">
         <h2>Jugando ahora</h2>
       </div>
       <p class="entries-hint" id="statusFormHint">Ingresa tu token y presiona "Actualizar" en Mis juegos para cargarlo.</p>

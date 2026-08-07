@@ -3,6 +3,8 @@ const GITHUB_REPO = "rhxgames";
 const GITHUB_BRANCH = "gh-pages";
 const DATA_PATH = "js/data.js";
 const STATUS_PATH = "js/status.js";
+const PROFILE_PATH = "js/profile.js";
+const PROFILE_PHOTO_PATH = "assets/img/web/profile.png";
 const TOKEN_STORAGE_KEY = "rhxgames_gh_pat";
 
 const form = document.getElementById("addForm");
@@ -33,10 +35,17 @@ const statusTituloInput = document.getElementById("statusTitulo");
 const saveStatusBtn = document.getElementById("saveStatusBtn");
 const clearStatusBtn = document.getElementById("clearStatusBtn");
 const statusFormStatusEl = document.getElementById("statusFormStatus");
+const profileFormHint = document.getElementById("profileFormHint");
+const profileForm = document.getElementById("profileForm");
+const profileBioInput = document.getElementById("profileBioInput");
+const profileFotoInput = document.getElementById("profileFotoInput");
+const saveProfileBtn = document.getElementById("saveProfileBtn");
+const profileFormStatusEl = document.getElementById("profileFormStatus");
 
 let editingId = null;
 let cachedEntries = [];
 let statusFileSha = null;
+let profileFileSha = null;
 
 platformPicker.innerHTML = Object.values(PLATFORM_GROUPS).map(group => `
   <div class="platform-group">
@@ -326,6 +335,7 @@ async function loadEntries() {
 refreshEntriesBtn.addEventListener("click", () => {
   loadEntries();
   loadStatus();
+  loadProfile();
 });
 
 function serializeStatus(statusData) {
@@ -409,6 +419,67 @@ clearStatusBtn.addEventListener("click", async () => {
     setStatusFormStatus(`Error: ${err.message}`, true);
   } finally {
     clearStatusBtn.disabled = false;
+  }
+});
+
+function serializeProfile(bio) {
+  const header = "// Bio del perfil — se edita desde admin.html\n";
+  return `${header}const siteBio = ${JSON.stringify(bio)};\n`;
+}
+
+function parseProfile(jsSource) {
+  const fn = new Function(`${jsSource}\nreturn siteBio;`);
+  return fn();
+}
+
+function setProfileFormStatus(msg, isError = false) {
+  profileFormStatusEl.textContent = msg;
+  profileFormStatusEl.className = isError ? "status error" : "status";
+}
+
+async function loadProfile() {
+  if (!tokenInput.value.trim()) return;
+  try {
+    const current = await githubRequest(`${PROFILE_PATH}?ref=${GITHUB_BRANCH}`);
+    profileFileSha = current.sha;
+    profileBioInput.value = parseProfile(base64ToUtf8(current.content)) || "";
+    profileFormHint.hidden = true;
+    profileForm.hidden = false;
+  } catch (err) {
+    profileFileSha = null;
+    profileFormHint.hidden = false;
+    profileFormHint.textContent = `Error al cargar el perfil: ${err.message}`;
+  }
+}
+
+saveProfileBtn.addEventListener("click", async () => {
+  const bio = profileBioInput.value.trim();
+  const file = profileFotoInput.files[0];
+  saveProfileBtn.disabled = true;
+  try {
+    if (file) {
+      setProfileFormStatus("Subiendo foto de perfil...");
+      const compressed = await compressImage(file, 600, 0.9);
+      await uploadFile(PROFILE_PHOTO_PATH, bufferToBase64(await compressed.arrayBuffer()), "Actualizar foto de perfil");
+      profileFotoInput.value = "";
+    }
+    setProfileFormStatus("Guardando bio...");
+    const content = serializeProfile(bio);
+    const result = await githubRequest(PROFILE_PATH, {
+      method: "PUT",
+      body: JSON.stringify({
+        message: "Actualizar perfil",
+        content: utf8ToBase64(content),
+        branch: GITHUB_BRANCH,
+        ...(profileFileSha ? { sha: profileFileSha } : {})
+      })
+    });
+    profileFileSha = result.content.sha;
+    setProfileFormStatus("Perfil guardado. GitHub Pages tarda ~30-60s en reflejarlo.");
+  } catch (err) {
+    setProfileFormStatus(`Error: ${err.message}`, true);
+  } finally {
+    saveProfileBtn.disabled = false;
   }
 });
 
@@ -576,4 +647,5 @@ form.addEventListener("submit", async (event) => {
 if (savedToken) {
   loadEntries();
   loadStatus();
+  loadProfile();
 }

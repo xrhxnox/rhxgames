@@ -206,6 +206,18 @@ function renderStatus() {
 }
 renderStatus();
 
+function renderProfile() {
+  const bioEl = document.getElementById("profileBio");
+  if (bioEl && typeof siteBio !== "undefined" && siteBio) {
+    bioEl.textContent = siteBio;
+  }
+  const photoEl = document.getElementById("profilePhoto");
+  if (photoEl) {
+    photoEl.src = `${photoEl.getAttribute("src")}?v=${Date.now()}`;
+  }
+}
+renderProfile();
+
 const themeToggle = document.getElementById("themeToggle");
 const THEME_KEY = "rhxgames_theme";
 
