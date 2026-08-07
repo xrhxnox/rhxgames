@@ -676,7 +676,7 @@ const entries = [
     titulo: "Scott Pilgrim vs. the World: The Game",
     imagen: "assets/img/scott-pilgrim-vs-the-world-the-game-89.jpg",
     plataformas: ["switch","xbox360"],
-    generos: ["Acción"],
+    generos: ["Acción","Arcade"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
   },
