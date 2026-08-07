@@ -1113,5 +1113,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 138,
+    titulo: "Super Smash Bross for 3DS",
+    imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
+    plataformas: ["n3ds"],
+    generos: ["Acción","Peleas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
