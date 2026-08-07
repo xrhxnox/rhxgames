@@ -540,13 +540,24 @@ main {
   z-index: 1;
 }
 
-.top-star {
-  font-size: 0.8rem;
+.top-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
   cursor: default;
 }
 
-.top-star.top5 { color: #facc15; }
-.top-star.top10 { color: #3b82f6; }
+.top-badge.top5 { color: #facc15; }
+.top-badge.top10 { color: #3b82f6; }
 
 .card .overlay {
   position: absolute;

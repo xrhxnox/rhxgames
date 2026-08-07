@@ -36,7 +36,7 @@ function genreTagsMarkup(entry) {
 function topBadgeMarkup(entry) {
   if (!entry.top) return "";
   const label = entry.top === "top5" ? "Top 5" : "Top 10";
-  return `<i class="fa-solid fa-star top-star ${entry.top}" title="${label}" aria-label="${label}"></i> `;
+  return `<span class="top-badge ${entry.top}" title="${label}" aria-label="${label}"><i class="fa-solid fa-star"></i></span>`;
 }
 
 function cardMarkup(entry) {
@@ -51,7 +51,8 @@ function cardMarkup(entry) {
       <img src="${entry.imagen}" alt="${entry.titulo}" loading="lazy">
       ${platformTagsMarkup(entry)}
       ${genreTagsMarkup(entry)}
-      <div class="title-bar">${topBadgeMarkup(entry)}${entry.titulo}</div>
+      ${topBadgeMarkup(entry)}
+      <div class="title-bar">${entry.titulo}</div>
       <div class="overlay">
         <div class="overlay-title">${entry.titulo}</div>
         <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 5">${starsMarkup(entry.puntuacion)}<span class="rating-number">(${entry.puntuacion % 1 === 0 ? entry.puntuacion : entry.puntuacion.toFixed(1)})</span></div>
