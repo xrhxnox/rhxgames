@@ -1009,4 +1009,12 @@ main {
     gap: 10px;
   }
   .site-header h1 { font-size: 1.8rem; }
+  .overlay .stars {
+    font-size: 0.85rem;
+    gap: 1px;
+  }
+  .overlay .stars .rating-number {
+    margin-left: 3px;
+    font-size: 0.65rem;
+  }
 }
