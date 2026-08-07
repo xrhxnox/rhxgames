@@ -664,5 +664,14 @@ const entries = [
     generos: ["Aventura"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 89,
+    titulo: "Scott Pilgrim vs. the World: The Game",
+    imagen: "assets/img/scott-pilgrim-vs-the-world-the-game-89.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Acción"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
