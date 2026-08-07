@@ -573,6 +573,7 @@ const entries = [
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
