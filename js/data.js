@@ -867,5 +867,13 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 2.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 111,
+    titulo: "Guitar Hero III: Legends of Rock",
+    imagen: "assets/img/guitar-hero-iii-legends-of-rock-111.jpg",
+    plataformas: ["wii","xbox360"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
   }
 ];
