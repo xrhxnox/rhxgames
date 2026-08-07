@@ -863,6 +863,7 @@ const entries = [
     id: 110,
     titulo: "Fable III",
     imagen: "assets/img/fable-iii-110.jpg",
+    plataformas: ["xbox360"],
     generos: ["Aventura","RPG"],
     puntuacion: 2.5,
     fecha: "2026-08-07"
