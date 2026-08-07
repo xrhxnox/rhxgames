@@ -14,6 +14,7 @@
   --plat-xbox: #107c10;
   --plat-pc: #00aeef;
   --plat-mobile: #00b8a9;
+  --plat-arcade: #f97316;
   --genre-color: #8b5cf6;
 
   --photo-border: #3a3a38;
@@ -380,6 +381,7 @@ main {
 .filter-btn[data-filter="xbox"]:hover i, .filter-btn[data-filter="xbox"].active i { color: var(--plat-xbox); }
 .filter-btn[data-filter="pc"]:hover i, .filter-btn[data-filter="pc"].active i { color: var(--plat-pc); }
 .filter-btn[data-filter="mobile"]:hover i, .filter-btn[data-filter="mobile"].active i { color: var(--plat-mobile); }
+.filter-btn[data-filter="arcade"]:hover i, .filter-btn[data-filter="arcade"].active i { color: var(--plat-arcade); }
 .filter-btn[data-filter="top"]:hover i, .filter-btn[data-filter="top"].active i { color: #facc15; }
 
 .filter-btn.active {
@@ -398,6 +400,7 @@ main {
 .filter-btn[data-filter="xbox"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-xbox); }
 .filter-btn[data-filter="pc"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-pc); }
 .filter-btn[data-filter="mobile"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-mobile); }
+.filter-btn[data-filter="arcade"].active .filter-icon { box-shadow: 0 0 0 2px var(--plat-arcade); }
 .filter-btn[data-filter="top"].active .filter-icon { box-shadow: 0 0 0 2px #facc15; }
 
 .selects-row {

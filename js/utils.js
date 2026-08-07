@@ -57,6 +57,14 @@ const PLATFORM_GROUPS = {
     items: {
       movil: "Móvil"
     }
+  },
+  arcade: {
+    label: "Arcade",
+    icon: "fa-solid fa-joystick",
+    color: "#f97316",
+    items: {
+      arcade: "Arcade"
+    }
   }
 };
 
@@ -64,7 +72,7 @@ const PLATFORM_GROUPS = {
 const GAME_GENRES = [
   "Acción", "Aventura", "RPG", "Estrategia", "Plataformas", "Shooter",
   "Terror", "Puzzle", "Carreras", "Peleas", "Deportes",
-  "Simulación", "Roguelike", "Party", "Indie", "Musical"
+  "Simulación", "Roguelike", "Party", "Indie", "Musical", "Arcade"
 ];
 
 // Orden cronológico aproximado de lanzamiento, de más antigua a más nueva.
