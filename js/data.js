@@ -1084,7 +1084,7 @@ const entries = [
     titulo: "Call of Duty: Modern Warfare 3",
     imagen: "assets/img/call-of-duty-modern-warfare-3-134.jpg",
     plataformas: ["xbox360"],
-    generos: ["Acción","Shooter"],
+    generos: ["Acción","Shooter","Multijugador","Online"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
