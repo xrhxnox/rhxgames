@@ -36,7 +36,7 @@ const entries = [
     titulo: "League of Legends",
     imagen: "assets/img/league-of-legends-3.jpg",
     plataformas: ["pc"],
-    generos: ["Estrategia"],
+    generos: ["Estrategia","MOBA"],
     top: "top15",
     puntuacion: 0,
     fecha: "2026-08-01"
