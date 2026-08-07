@@ -673,5 +673,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 90,
+    titulo: "Mario Party Superstars",
+    imagen: "assets/img/mario-party-superstars-90.jpg",
+    plataformas: ["switch"],
+    generos: ["Party"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
