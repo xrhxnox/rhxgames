@@ -326,8 +326,9 @@ const entries = [
     id: 51,
     titulo: "Sonic Adventure 2: Battle",
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
-    plataformas: ["gamecube","pc"],
-    generos: ["Acción","Aventura","Plataformas"],
+    plataformas: ["gamecube","xbox360","pc"],
+    generos: ["Acción","Aventura","Plataformas","Mundo abierto"],
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -572,6 +573,7 @@ const entries = [
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
