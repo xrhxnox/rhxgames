@@ -111,6 +111,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
     generos: ["Acción","Aventura","Mundo abierto"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
