@@ -659,7 +659,7 @@ const entries = [
     titulo: "Super Smash Bros Ultimate",
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 5,
     fecha: "2026-08-01"
   },
