@@ -1120,7 +1120,7 @@ const entries = [
     titulo: "Super Smash Bros for 3DS",
     imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
     plataformas: ["n3ds"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
