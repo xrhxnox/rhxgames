@@ -939,5 +939,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 119,
+    titulo: "Halo: Reach",
+    imagen: "assets/img/halo-reach-119.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Shooter"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
