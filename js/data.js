@@ -369,8 +369,9 @@ const entries = [
     id: 56,
     titulo: "Pokémon HeartGold",
     imagen: "assets/img/pokemon-heartgold-56.jpg",
-    plataformas: ["nds"],
-    generos: ["Aventura","RPG"],
+    plataformas: ["gamecube","switch","nds"],
+    generos: ["Aventura","RPG","Estrategia"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
