@@ -1095,5 +1095,14 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 136,
+    titulo: "Pokémon Emerald",
+    imagen: "assets/img/pokemon-emerald-136.jpg",
+    plataformas: ["gba"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
