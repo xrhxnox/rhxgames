@@ -63,7 +63,7 @@ const PLATFORM_GROUPS = {
 // Géneros de videojuegos disponibles como tags/filtro secundario.
 const GAME_GENRES = [
   "Acción", "Aventura", "RPG", "Estrategia", "Plataformas", "Shooter",
-  "Mundo abierto", "Terror", "Puzzle", "Carreras", "Lucha", "Deportes",
+  "Mundo abierto", "Terror", "Puzzle", "Carreras", "Peleas", "Deportes",
   "Simulación", "Roguelike", "Party", "Indie"
 ];
 

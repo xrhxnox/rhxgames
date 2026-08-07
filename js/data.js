@@ -528,7 +528,7 @@ const entries = [
     titulo: "Punch-Out!!",
     imagen: "assets/img/punch-out-73.jpg",
     plataformas: ["wii"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 3.5,
     fecha: "2026-08-06"
   },
@@ -537,7 +537,7 @@ const entries = [
     titulo: "Super Smash Bros Brawl",
     imagen: "assets/img/super-smash-bros-brawl-74.jpg",
     plataformas: ["wii"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -546,7 +546,7 @@ const entries = [
     titulo: "Super Smash Bros Melee",
     imagen: "assets/img/super-smash-bros-melee-75.jpg",
     plataformas: ["gamecube"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -564,7 +564,7 @@ const entries = [
     titulo: "Super Smash Bros",
     imagen: "assets/img/super-smash-bros-77.jpg",
     plataformas: ["n64"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 3.5,
     fecha: "2026-08-06"
   },
@@ -583,7 +583,7 @@ const entries = [
     titulo: "Dragon Ball: Sparking! Zero",
     imagen: "assets/img/dragon-ball-sparking-zero-79.jpg",
     plataformas: ["pc"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -637,7 +637,7 @@ const entries = [
     titulo: "Ultimate Marvel vs. Capcom 3",
     imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
     plataformas: ["xbox360"],
-    generos: ["Lucha"],
+    generos: ["Peleas"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
@@ -655,7 +655,7 @@ const entries = [
     titulo: "Super Smash Bros Ultimate",
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
   },
@@ -718,7 +718,7 @@ const entries = [
     titulo: "Super Smash Bross for Wii U",
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
-    generos: ["Acción","Lucha"],
+    generos: ["Acción","Peleas"],
     puntuacion: 5,
     fecha: "2026-08-07"
   },
@@ -808,7 +808,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm Generations",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-generations-104.jpg",
     plataformas: ["xbox360"],
-    generos: ["Lucha"],
+    generos: ["Peleas"],
     puntuacion: 3,
     fecha: "2026-08-07"
   },
@@ -817,7 +817,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm 2",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-2-105.jpg",
     plataformas: ["switch","xbox360"],
-    generos: ["Lucha"],
+    generos: ["Peleas"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
@@ -826,7 +826,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm 4",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-4-106.jpg",
     plataformas: ["switch"],
-    generos: ["Lucha"],
+    generos: ["Peleas"],
     puntuacion: 4,
     fecha: "2026-08-07"
   }
