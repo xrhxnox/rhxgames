@@ -1116,7 +1116,7 @@ const entries = [
   },
   {
     id: 138,
-    titulo: "Super Smash Bross for 3DS",
+    titulo: "Super Smash Bros for 3DS",
     imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
     plataformas: ["n3ds"],
     generos: ["Acción","Peleas"],
