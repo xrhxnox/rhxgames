@@ -1067,5 +1067,14 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 133,
+    titulo: "Tatsunoko vs. Capcom: Ultimate All Stars",
+    imagen: "assets/img/tatsunoko-vs-capcom-ultimate-all-stars-133.jpg",
+    plataformas: ["wii"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
