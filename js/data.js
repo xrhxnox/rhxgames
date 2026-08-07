@@ -92,7 +92,7 @@ const entries = [
     titulo: "Pokémon Violet",
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
-    generos: ["Aventura","RPG","Mundo abierto"],
+    generos: ["Aventura","RPG"],
     puntuacion: 2.5,
     fecha: "2026-07-15"
   },
@@ -110,7 +110,7 @@ const entries = [
     titulo: "The Legend of Zelda: Breath of the Wild",
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
-    generos: ["Acción","Aventura","Mundo abierto"],
+    generos: ["Acción","Aventura"],
     top: "top15",
     puntuacion: 5,
     fecha: "2026-07-15"
@@ -320,7 +320,7 @@ const entries = [
     titulo: "Mario Kart World",
     imagen: "assets/img/mario-kart-world-50.jpg",
     plataformas: ["switch2"],
-    generos: ["Mundo abierto","Carreras"],
+    generos: ["Carreras"],
     puntuacion: 4,
     fecha: "2026-08-06"
   },
@@ -595,7 +595,7 @@ const entries = [
     titulo: "The Legend of Zelda: Tears of the Kingdom",
     imagen: "assets/img/the-legend-of-zelda-tears-of-the-kingdom-80.jpg",
     plataformas: ["switch","switch2"],
-    generos: ["Acción","Aventura","Mundo abierto"],
+    generos: ["Acción","Aventura"],
     puntuacion: 5,
     fecha: "2026-08-06"
   },
@@ -712,7 +712,7 @@ const entries = [
     titulo: "Grand Theft Auto V",
     imagen: "assets/img/grand-theft-auto-v-93.jpg",
     plataformas: ["xbox360","pc"],
-    generos: ["Acción","Mundo abierto"],
+    generos: ["Acción"],
     puntuacion: 5,
     fecha: "2026-08-07"
   },
@@ -793,7 +793,7 @@ const entries = [
     titulo: "Grand Theft Auto San Andreas",
     imagen: "assets/img/grand-theft-auto-san-andreas-102.jpg",
     plataformas: ["ps2"],
-    generos: ["Acción","Mundo abierto"],
+    generos: ["Acción"],
     puntuacion: 5,
     fecha: "2026-08-07"
   },
