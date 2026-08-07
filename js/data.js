@@ -550,7 +550,7 @@ const entries = [
     titulo: "Super Smash Bros Melee",
     imagen: "assets/img/super-smash-bros-melee-75.jpg",
     plataformas: ["gamecube"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
