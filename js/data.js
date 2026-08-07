@@ -1159,5 +1159,14 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 143,
+    titulo: "The King of Fighters 2001",
+    imagen: "assets/img/the-king-of-fighters-2001-143.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
