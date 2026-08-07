@@ -985,5 +985,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 124,
+    titulo: "Batman: Arkham City",
+    imagen: "assets/img/batman-arkham-city-124.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
