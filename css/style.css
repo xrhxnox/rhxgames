@@ -26,7 +26,7 @@
 
 :root[data-theme="light"] {
   --bg: #ffffff;
-  --surface: #ffffff;
+  --surface: #f2f2f0;
   --surface-hover: #e8e8e6;
   --text: #1f1f1e;
   --text-dim: #6b6b68;
