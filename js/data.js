@@ -541,7 +541,7 @@ const entries = [
     titulo: "Super Smash Bros Brawl",
     imagen: "assets/img/super-smash-bros-brawl-74.jpg",
     plataformas: ["wii"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
