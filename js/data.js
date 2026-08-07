@@ -1040,5 +1040,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 130,
+    titulo: "Super Paper Mario",
+    imagen: "assets/img/super-paper-mario-130.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","RPG","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
