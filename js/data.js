@@ -967,5 +967,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 122,
+    titulo: "Yoshi's Story",
+    imagen: "assets/img/yoshi-s-story-122.jpg",
+    plataformas: ["n64"],
+    generos: ["Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
