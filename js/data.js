@@ -37,6 +37,7 @@ const entries = [
     imagen: "assets/img/league-of-legends-3.jpg",
     plataformas: ["pc"],
     generos: ["Estrategia"],
+    top: "top15",
     puntuacion: 0,
     fecha: "2026-07-15"
   },
@@ -512,7 +513,7 @@ const entries = [
     id: 71,
     titulo: "Call of Duty: Black Ops",
     imagen: "assets/img/call-of-duty-black-ops-71.jpg",
-    plataformas: ["xbox360","pc"],
+    plataformas: ["wii","xbox360","pc"],
     generos: ["Acción","Shooter"],
     puntuacion: 4,
     fecha: "2026-08-06"
@@ -640,7 +641,7 @@ const entries = [
     titulo: "Ultimate Marvel vs. Capcom 3",
     imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
     plataformas: ["xbox360"],
-    generos: ["Peleas"],
+    generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-07"
   },
@@ -1039,6 +1040,60 @@ const entries = [
     plataformas: ["ps2"],
     generos: ["Deportes"],
     puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 130,
+    titulo: "Super Paper Mario",
+    imagen: "assets/img/super-paper-mario-130.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","RPG","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 131,
+    titulo: "The Legend of Zelda: Ocarina of Time",
+    imagen: "assets/img/the-legend-of-zelda-ocarina-of-time-131.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 132,
+    titulo: "The Legend of Zelda: Majora's Mask",
+    imagen: "assets/img/the-legend-of-zelda-majora-s-mask-132.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 133,
+    titulo: "Tatsunoko vs. Capcom: Ultimate All Stars",
+    imagen: "assets/img/tatsunoko-vs-capcom-ultimate-all-stars-133.jpg",
+    plataformas: ["wii"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 134,
+    titulo: "Call of Duty: Modern Warfare 3",
+    imagen: "assets/img/call-of-duty-modern-warfare-3-134.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Shooter"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 135,
+    titulo: "Marvel vs. Capcom 2: New Age of Heroes",
+    imagen: "assets/img/marvel-vs-capcom-2-new-age-of-heroes-135.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   }
 ];
