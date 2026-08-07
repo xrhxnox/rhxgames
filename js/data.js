@@ -691,5 +691,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 92,
+    titulo: "Assasins Creed II",
+    imagen: "assets/img/assasins-creed-ii-92.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
