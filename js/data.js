@@ -1122,5 +1122,14 @@ const entries = [
     generos: ["Acción","Peleas"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 139,
+    titulo: "Mario Power Tennis",
+    imagen: "assets/img/mario-power-tennis-139.jpg",
+    plataformas: ["gamecube","wii"],
+    generos: ["Deportes"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
