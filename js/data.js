@@ -55,7 +55,7 @@ const entries = [
     titulo: "Star Fox",
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
-    generos: ["Acción"],
+    generos: ["Acción","Arcade"],
     puntuacion: 4,
     fecha: "2026-07-15"
   },
