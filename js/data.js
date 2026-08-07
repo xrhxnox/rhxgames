@@ -686,7 +686,7 @@ const entries = [
     imagen: "assets/img/mario-party-superstars-90.jpg",
     plataformas: ["switch"],
     generos: ["Party"],
-    puntuacion: 4,
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   },
   {
@@ -984,6 +984,61 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 124,
+    titulo: "Batman: Arkham City",
+    imagen: "assets/img/batman-arkham-city-124.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 125,
+    titulo: "Batman: Arkham Asylum",
+    imagen: "assets/img/batman-arkham-asylum-125.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 126,
+    titulo: "Batman: Arkham Origins",
+    imagen: "assets/img/batman-arkham-origins-126.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 127,
+    titulo: "Sonic Adventure DX",
+    imagen: "assets/img/sonic-adventure-dx-127.jpg",
+    plataformas: ["gamecube","pc"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 128,
+    titulo: "Metal Slug X",
+    imagen: "assets/img/metal-slug-x-128.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Plataformas","Shooter"],
+    top: "top15",
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 129,
+    titulo: "SSX Tricky",
+    imagen: "assets/img/ssx-tricky-129.jpg",
+    plataformas: ["ps2"],
+    generos: ["Deportes"],
+    puntuacion: 3.5,
     fecha: "2026-08-07"
   }
 ];
