@@ -728,5 +728,14 @@ const entries = [
     plataformas: ["wiiu"],
     puntuacion: 1.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 96,
+    titulo: "Mario Kart DS",
+    imagen: "assets/img/mario-kart-ds-96.jpg",
+    plataformas: ["nds"],
+    generos: ["Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
