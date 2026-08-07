@@ -1204,5 +1204,14 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 148,
+    titulo: "Grand Theft Auto III",
+    imagen: "assets/img/grand-theft-auto-iii-148.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
