@@ -858,5 +858,13 @@ const entries = [
     generos: ["Lucha"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 110,
+    titulo: "Fable III",
+    imagen: "assets/img/fable-iii-110.jpg",
+    generos: ["Aventura","RPG"],
+    puntuacion: 2.5,
+    fecha: "2026-08-07"
   }
 ];
