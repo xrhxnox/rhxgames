@@ -44,8 +44,9 @@ const entries = [
     id: 4,
     titulo: "Animal Crossing: New Horizons",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
-    plataformas: ["switch","switch2"],
-    generos: ["Simulación"],
+    plataformas: ["gamecube","wii","switch","switch2","nds","pc"],
+    generos: ["Acción","Aventura","RPG","Estrategia","Plataformas","Simulación"],
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
@@ -215,8 +216,9 @@ const entries = [
     id: 39,
     titulo: "No More Heroes",
     imagen: "assets/img/no-more-heroes-39.jpg",
-    plataformas: ["wii","switch"],
-    generos: ["Acción"],
+    plataformas: ["gamecube","wii","switch","nds"],
+    generos: ["Acción","Aventura","RPG","Estrategia"],
+    top: "top10",
     puntuacion: 3.5,
     fecha: "2026-08-06"
   },
@@ -262,6 +264,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-thousand-year-door-44.jpg",
     plataformas: ["gamecube","switch"],
     generos: ["Aventura","RPG","Estrategia"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
@@ -368,8 +371,9 @@ const entries = [
     id: 56,
     titulo: "Pokémon HeartGold",
     imagen: "assets/img/pokemon-heartgold-56.jpg",
-    plataformas: ["nds"],
-    generos: ["Aventura","RPG"],
+    plataformas: ["gamecube","switch","nds"],
+    generos: ["Aventura","RPG","Estrategia"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
