@@ -695,7 +695,7 @@ const entries = [
     titulo: "Mario Kart Wii",
     imagen: "assets/img/mario-kart-wii-91.jpg",
     plataformas: ["wii"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
