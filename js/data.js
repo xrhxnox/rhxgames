@@ -476,6 +476,7 @@ const entries = [
     imagen: "assets/img/super-mario-world-67.jpg",
     plataformas: ["snes"],
     generos: ["Plataformas"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
