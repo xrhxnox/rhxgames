@@ -1104,5 +1104,14 @@ const entries = [
     generos: ["Aventura","RPG"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 137,
+    titulo: "Pokémon Omega Ruby",
+    imagen: "assets/img/pokemon-omega-ruby-137.jpg",
+    plataformas: ["n3ds"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
