@@ -216,8 +216,8 @@ const entries = [
     id: 39,
     titulo: "No More Heroes",
     imagen: "assets/img/no-more-heroes-39.jpg",
-    plataformas: ["gamecube","wii","switch","nds"],
-    generos: ["Acción","Aventura","RPG","Estrategia"],
+    plataformas: ["wii","switch"],
+    generos: ["Acción"],
     top: "top10",
     puntuacion: 3.5,
     fecha: "2026-08-06"
