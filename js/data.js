@@ -912,5 +912,14 @@ const entries = [
     generos: ["Deportes"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 116,
+    titulo: "Mario Strikers: Charged",
+    imagen: "assets/img/mario-strikers-charged-116.jpg",
+    plataformas: ["wii"],
+    generos: ["Deportes"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
