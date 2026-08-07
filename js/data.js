@@ -1058,5 +1058,14 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 132,
+    titulo: "The Legend of Zelda: Majora's Mask",
+    imagen: "assets/img/the-legend-of-zelda-majora-s-mask-132.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
   }
 ];
