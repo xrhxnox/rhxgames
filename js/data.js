@@ -811,5 +811,14 @@ const entries = [
     generos: ["Lucha"],
     puntuacion: 3,
     fecha: "2026-08-07"
+  },
+  {
+    id: 105,
+    titulo: "Naruto Shippuden: Ultimate Ninja Storm 2",
+    imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-2-105.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
