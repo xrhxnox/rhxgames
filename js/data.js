@@ -1195,5 +1195,14 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 147,
+    titulo: "Pokkén Tournament DX",
+    imagen: "assets/img/pokken-tournament-dx-147.jpg",
+    plataformas: ["wiiu","switch"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
