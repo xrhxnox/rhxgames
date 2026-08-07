@@ -965,7 +965,7 @@ const entries = [
     titulo: "Mario Kart 64",
     imagen: "assets/img/mario-kart-64-121.jpg",
     plataformas: ["n64"],
-    generos: ["Carreras"],
+    generos: ["Carreras","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
