@@ -660,7 +660,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Peleas"],
-    puntuacion: 4.5,
+    puntuacion: 5,
     fecha: "2026-08-07"
   },
   {
@@ -719,11 +719,11 @@ const entries = [
   },
   {
     id: 94,
-    titulo: "Super Smash Bross for Wii U",
+    titulo: "Super Smash Bros for Wii U",
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
     generos: ["Acción","Peleas"],
-    puntuacion: 5,
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   },
   {
@@ -1112,6 +1112,15 @@ const entries = [
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG"],
     puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 138,
+    titulo: "Super Smash Bros for 3DS",
+    imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
+    plataformas: ["n3ds"],
+    generos: ["Acción","Peleas"],
+    puntuacion: 3.5,
     fecha: "2026-08-07"
   }
 ];
