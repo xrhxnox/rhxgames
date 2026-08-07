@@ -993,6 +993,7 @@ const entries = [
     imagen: "assets/img/batman-arkham-city-124.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-08-07"
   },
@@ -1121,6 +1122,51 @@ const entries = [
     plataformas: ["n3ds"],
     generos: ["Acción","Peleas"],
     puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 139,
+    titulo: "Mario Power Tennis",
+    imagen: "assets/img/mario-power-tennis-139.jpg",
+    plataformas: ["gamecube","wii"],
+    generos: ["Deportes"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 140,
+    titulo: "The Simpsons: Road Rage",
+    imagen: "assets/img/the-simpsons-road-rage-140.jpg",
+    plataformas: ["gba","ps2"],
+    generos: ["Acción","Carreras"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 141,
+    titulo: "The Simpsons",
+    imagen: "assets/img/the-simpsons-141.jpg",
+    plataformas: ["arcade"],
+    generos: ["Arcade"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 142,
+    titulo: "Waku Waku 7",
+    imagen: "assets/img/waku-waku-7-142.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 143,
+    titulo: "The King of Fighters 2001",
+    imagen: "assets/img/the-king-of-fighters-2001-143.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
     fecha: "2026-08-07"
   }
 ];
