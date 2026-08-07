@@ -994,5 +994,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 125,
+    titulo: "Batman: Arkham Asylum",
+    imagen: "assets/img/batman-arkham-asylum-125.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
