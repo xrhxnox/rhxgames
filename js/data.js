@@ -1150,5 +1150,14 @@ const entries = [
     generos: ["Arcade"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 142,
+    titulo: "Waku Waku 7",
+    imagen: "assets/img/waku-waku-7-142.jpg",
+    plataformas: ["arcade"],
+    generos: ["Peleas","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
