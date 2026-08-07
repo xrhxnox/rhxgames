@@ -993,6 +993,7 @@ const entries = [
     imagen: "assets/img/batman-arkham-city-124.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-08-07"
   },
