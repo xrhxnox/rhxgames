@@ -1021,5 +1021,15 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3,
     fecha: "2026-08-07"
+  },
+  {
+    id: 128,
+    titulo: "Metal Slug X",
+    imagen: "assets/img/metal-slug-x-128.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Plataformas","Shooter"],
+    top: "top15",
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
