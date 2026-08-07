@@ -948,5 +948,14 @@ const entries = [
     generos: ["Acción","Shooter"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 120,
+    titulo: "Diddy Kong Racing",
+    imagen: "assets/img/diddy-kong-racing-120.jpg",
+    plataformas: ["n64"],
+    generos: ["Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
