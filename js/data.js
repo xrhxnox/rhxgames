@@ -1021,7 +1021,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-dx-127.jpg",
     plataformas: ["gamecube","pc"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 3,
+    puntuacion: 2.5,
     fecha: "2026-08-01"
   },
   {
