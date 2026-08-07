@@ -748,5 +748,14 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 2.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 98,
+    titulo: "Sonic Generations",
+    imagen: "assets/img/sonic-generations-98.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
