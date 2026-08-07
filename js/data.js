@@ -739,5 +739,14 @@ const entries = [
     generos: ["Carreras"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 97,
+    titulo: "Sonic Frontiers",
+    imagen: "assets/img/sonic-frontiers-97.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 2.5,
+    fecha: "2026-08-07"
   }
 ];
