@@ -111,6 +111,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
     generos: ["Acción","Aventura","Mundo abierto"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
@@ -475,6 +476,7 @@ const entries = [
     imagen: "assets/img/super-mario-world-67.jpg",
     plataformas: ["snes"],
     generos: ["Plataformas"],
+    top: "top5",
     puntuacion: 5,
     fecha: "2026-08-06"
   },
@@ -828,6 +830,50 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Peleas"],
     puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 107,
+    titulo: "Naruto: Ultimate Ninja Storm",
+    imagen: "assets/img/naruto-ultimate-ninja-storm-107.jpg",
+    plataformas: ["switch","ps3"],
+    generos: ["Aventura","Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 108,
+    titulo: "Mario Kart: Double Dash!!",
+    imagen: "assets/img/mario-kart-double-dash-108.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Carreras"],
+    puntuacion: 3,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 109,
+    titulo: "Dragon Ball Z: Budokai Tenkaichi 3",
+    imagen: "assets/img/dragon-ball-z-budokai-tenkaichi-3-109.jpg",
+    plataformas: ["wii"],
+    generos: ["Lucha"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 110,
+    titulo: "Fable III",
+    imagen: "assets/img/fable-iii-110.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Aventura","RPG"],
+    puntuacion: 2.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 111,
+    titulo: "Guitar Hero III: Legends of Rock",
+    imagen: "assets/img/guitar-hero-iii-legends-of-rock-111.jpg",
+    plataformas: ["wii","xbox360"],
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   }
 ];
