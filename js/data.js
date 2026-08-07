@@ -655,5 +655,14 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 4.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 88,
+    titulo: "The Legend of Zelda: Link's Awakening",
+    imagen: "assets/img/the-legend-of-zelda-link-s-awakening-88.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
