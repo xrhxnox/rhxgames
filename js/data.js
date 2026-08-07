@@ -7,7 +7,7 @@
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
-// top: "top5" | "top10" | ausente si no aplica
+// top: "top5" | "top15" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -792,6 +792,15 @@ const entries = [
     plataformas: ["ps2"],
     generos: ["Acción","Mundo abierto"],
     puntuacion: 5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 103,
+    titulo: "Mario Party 10",
+    imagen: "assets/img/mario-party-10-103.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Party"],
+    puntuacion: 1,
     fecha: "2026-08-07"
   }
 ];
