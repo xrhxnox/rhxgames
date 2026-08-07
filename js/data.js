@@ -775,5 +775,14 @@ const entries = [
     top: "top10",
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 101,
+    titulo: "Spider-Man 2",
+    imagen: "assets/img/spider-man-2-101.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
   }
 ];
