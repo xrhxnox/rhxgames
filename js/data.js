@@ -83,6 +83,7 @@ const entries = [
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-07-15"
   },
@@ -737,6 +738,51 @@ const entries = [
     plataformas: ["nds"],
     generos: ["Carreras"],
     puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 97,
+    titulo: "Sonic Frontiers",
+    imagen: "assets/img/sonic-frontiers-97.jpg",
+    plataformas: ["switch","pc"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 2.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 98,
+    titulo: "Sonic Generations",
+    imagen: "assets/img/sonic-generations-98.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 99,
+    titulo: "Sonic Forces",
+    imagen: "assets/img/sonic-forces-99.jpg",
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 1.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 100,
+    titulo: "Spider-Man",
+    imagen: "assets/img/spider-man-100.jpg",
+    plataformas: ["pc"],
+    generos: ["Acción"],
+    top: "top10",
+    puntuacion: 4,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 101,
+    titulo: "Spider-Man 2",
+    imagen: "assets/img/spider-man-2-101.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción"],
+    puntuacion: 4.5,
     fecha: "2026-08-07"
   }
 ];
