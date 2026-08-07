@@ -903,5 +903,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 115,
+    titulo: "Super Martio Strikers",
+    imagen: "assets/img/super-martio-strikers-115.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Deportes"],
+    puntuacion: 4,
+    fecha: "2026-08-07"
   }
 ];
