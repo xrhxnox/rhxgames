@@ -1168,5 +1168,32 @@ const entries = [
     generos: ["Peleas","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-01"
+  },
+  {
+    id: 144,
+    titulo: "Star Fox Zero",
+    imagen: "assets/img/star-fox-zero-144.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Acción","Arcade"],
+    puntuacion: 3.5,
+    fecha: "2026-08-06"
+  },
+  {
+    id: 145,
+    titulo: "Super Mario Maker",
+    imagen: "assets/img/super-mario-maker-145.jpg",
+    plataformas: ["wiiu"],
+    generos: ["Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
+  },
+  {
+    id: 146,
+    titulo: "The Legend of Zelda: The Wind Waker",
+    imagen: "assets/img/the-legend-of-zelda-the-wind-waker-146.jpg",
+    plataformas: ["gamecube","wiiu"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 5,
+    fecha: "2026-08-07"
   }
 ];
