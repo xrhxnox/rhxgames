@@ -720,5 +720,13 @@ const entries = [
     generos: ["Acción","Lucha"],
     puntuacion: 5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 95,
+    titulo: "Mario Tennis Ultra Smash",
+    imagen: "assets/img/mario-tennis-ultra-smash-95.jpg",
+    plataformas: ["wiiu"],
+    puntuacion: 1.5,
+    fecha: "2026-08-07"
   }
 ];
