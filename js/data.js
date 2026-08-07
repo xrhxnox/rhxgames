@@ -1026,8 +1026,8 @@ const entries = [
     id: 128,
     titulo: "Metal Slug X",
     imagen: "assets/img/metal-slug-x-128.jpg",
-    plataformas: ["switch","pc"],
-    generos: ["Acción","Plataformas","Shooter"],
+    plataformas: ["switch","pc","arcade"],
+    generos: ["Acción","Plataformas","Shooter","Arcade"],
     top: "top15",
     puntuacion: 5,
     fecha: "2026-08-07"
