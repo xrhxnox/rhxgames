@@ -646,5 +646,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 2.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 87,
+    titulo: "Super Smash Bros Ultimate",
+    imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","Lucha"],
+    puntuacion: 4.5,
+    fecha: "2026-08-07"
   }
 ];
