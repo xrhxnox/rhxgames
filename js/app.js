@@ -1,6 +1,7 @@
 const grid = document.getElementById("grid");
 const emptyState = document.getElementById("emptyState");
-const filterButtons = document.querySelectorAll(".filter-btn");
+const controls = document.querySelector(".controls");
+const consoleFilters = document.getElementById("consoleFilters");
 const yearSelect = document.getElementById("year");
 const sortSelect = document.getElementById("sortSelect");
 const searchInput = document.getElementById("searchInput");
@@ -94,10 +95,18 @@ function renderPagination(totalPages) {
   });
 }
 
+function matchesFilter(entry, filter) {
+  if (filter === "todos") return true;
+  if (filter === "top") return !!entry.top;
+  const plats = entry.plataformas || [];
+  if (plats.includes(filter)) return true;
+  const groups = plats.map(p => PLATFORM_GROUP_OF[p]);
+  return groups.includes(filter);
+}
+
 function render() {
   const filtered = entries.filter(e => {
-    const groups = (e.plataformas || []).map(p => PLATFORM_GROUP_OF[p]);
-    const matchFilter = activeFilter === "todos" || (activeFilter === "top" ? !!e.top : groups.includes(activeFilter));
+    const matchFilter = matchesFilter(e, activeFilter);
     const matchYear = activeYear === "todos" || (e.fecha && e.fecha.slice(0, 4) === activeYear);
     const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchFilter && matchYear && matchSearch;
@@ -125,14 +134,20 @@ function render() {
   renderPagination(totalPages);
 }
 
-filterButtons.forEach(btn => {
-  btn.addEventListener("click", () => {
-    filterButtons.forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    activeFilter = btn.dataset.filter;
-    currentPage = 1;
-    render();
-  });
+consoleFilters.innerHTML = PLATFORM_ORDER.map(key => {
+  const label = PLATFORM_LABELS[key] || key;
+  const color = PLATFORM_COLORS[key] || "#9aa1ac";
+  return `<button class="console-filter-btn" data-filter="${key}" style="--platform-color:${color}">${label}</button>`;
+}).join("");
+
+controls.addEventListener("click", (event) => {
+  const btn = event.target.closest("[data-filter]");
+  if (!btn) return;
+  controls.querySelectorAll("[data-filter]").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  activeFilter = btn.dataset.filter;
+  currentPage = 1;
+  render();
 });
 
 yearSelect.addEventListener("change", () => {

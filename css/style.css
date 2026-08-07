@@ -318,6 +318,32 @@ main {
   gap: 18px;
 }
 
+.console-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 640px;
+}
+
+.console-filter-btn {
+  background: var(--surface);
+  color: var(--text-dim);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.console-filter-btn:hover,
+.console-filter-btn.active {
+  color: var(--platform-color, var(--text));
+  border-color: var(--platform-color, var(--text-dim));
+}
+
 .filter-btn {
   display: flex;
   flex-direction: column;

@@ -79,7 +79,7 @@ const GAME_GENRES = [
 // "pc" y "movil" se excluyen de aquí porque siempre van al final (ver
 // platformSortIndex).
 const PLATFORM_ORDER = [
-  "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "ngc",
+  "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "gamecube",
   "xbox", "nds", "psp", "xbox360", "ps3", "wii", "n3ds", "psvita",
   "wiiu", "ps4", "xboxone", "switch", "xboxseries", "ps5", "switch2"
 ];
