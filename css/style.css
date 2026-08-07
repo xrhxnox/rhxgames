@@ -580,6 +580,18 @@ main {
   pointer-events: auto;
 }
 
+.overlay .overlay-top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.overlay .overlay-top.top5 { color: #facc15; }
+.overlay .overlay-top.top10 { color: #3b82f6; }
+
 .overlay .overlay-title {
   font-size: 0.95rem;
   font-weight: 700;
