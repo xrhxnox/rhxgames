@@ -930,5 +930,14 @@ const entries = [
     generos: ["Party"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 118,
+    titulo: "Mario Party 2",
+    imagen: "assets/img/mario-party-2-118.jpg",
+    plataformas: ["n64"],
+    generos: ["Party"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
