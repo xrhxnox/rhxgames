@@ -757,5 +757,13 @@ const entries = [
     generos: ["Acción","Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 99,
+    titulo: "Sonic Forces",
+    imagen: "assets/img/sonic-forces-99.jpg",
+    generos: ["Acción","Aventura","Plataformas"],
+    puntuacion: 1.5,
+    fecha: "2026-08-07"
   }
 ];
