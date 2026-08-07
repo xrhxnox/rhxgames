@@ -1003,5 +1003,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 4,
     fecha: "2026-08-07"
+  },
+  {
+    id: 126,
+    titulo: "Batman: Arkham Origins",
+    imagen: "assets/img/batman-arkham-origins-126.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 3.5,
+    fecha: "2026-08-07"
   }
 ];
