@@ -224,6 +224,25 @@ function computeGenreTagWidth() {
   document.documentElement.style.setProperty("--genre-tag-width", `${Math.ceil(max)}px`);
 }
 computeGenreTagWidth();
+
+function computeConsoleFilterWidth() {
+  const probe = document.createElement("button");
+  probe.className = "console-filter-btn";
+  probe.style.position = "absolute";
+  probe.style.visibility = "hidden";
+  probe.style.width = "auto";
+  probe.style.whiteSpace = "nowrap";
+  document.body.appendChild(probe);
+  let max = 0;
+  PLATFORM_ORDER.forEach(key => {
+    probe.textContent = PLATFORM_LABELS[key] || key;
+    max = Math.max(max, probe.getBoundingClientRect().width);
+  });
+  document.body.removeChild(probe);
+  document.documentElement.style.setProperty("--console-filter-width", `${Math.ceil(max)}px`);
+}
+computeConsoleFilterWidth();
+
 updateConsoleRow();
 
 populateYears();

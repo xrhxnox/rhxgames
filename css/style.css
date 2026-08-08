@@ -350,6 +350,8 @@ main {
   font-size: 0.75rem;
   font-family: inherit;
   cursor: pointer;
+  text-align: center;
+  width: var(--console-filter-width, auto);
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
