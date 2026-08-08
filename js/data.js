@@ -1214,5 +1214,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 3.5,
     fecha: "2026-08-07"
+  },
+  {
+    id: 149,
+    titulo: "Naruto Ultimate Ninja",
+    imagen: "assets/img/naruto-ultimate-ninja-149.jpg",
+    plataformas: ["ps2"],
+    generos: ["Peleas","Multijugador"],
+    puntuacion: 3.5,
+    fecha: "2026-08-08"
   }
 ];
