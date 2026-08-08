@@ -813,7 +813,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm Generations",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-generations-104.jpg",
     plataformas: ["xbox360"],
-    generos: ["Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -822,7 +822,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm 2",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-2-105.jpg",
     plataformas: ["switch","xbox360"],
-    generos: ["Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -831,7 +831,7 @@ const entries = [
     titulo: "Naruto Shippuden: Ultimate Ninja Storm 4",
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-4-106.jpg",
     plataformas: ["switch"],
-    generos: ["Peleas"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -840,7 +840,7 @@ const entries = [
     titulo: "Naruto: Ultimate Ninja Storm",
     imagen: "assets/img/naruto-ultimate-ninja-storm-107.jpg",
     plataformas: ["switch","ps3"],
-    generos: ["Aventura","Peleas"],
+    generos: ["Aventura","Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
