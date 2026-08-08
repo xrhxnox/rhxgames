@@ -1232,5 +1232,14 @@ const entries = [
     generos: ["Musical"],
     puntuacion: 4.5,
     fecha: "2026-08-08"
+  },
+  {
+    id: 151,
+    titulo: "Valorant",
+    imagen: "assets/img/valorant-151.jpg",
+    plataformas: ["pc"],
+    generos: ["Shooter","Multijugador","Online"],
+    puntuacion: 3.5,
+    fecha: "2026-08-08"
   }
 ];
