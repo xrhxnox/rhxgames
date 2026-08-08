@@ -1247,7 +1247,7 @@ const entries = [
     titulo: "Guitar Hero Worl Tour",
     imagen: "assets/img/guitar-hero-worl-tour-152.jpg",
     plataformas: ["wii"],
-    generos: ["Musical","Multijugador"],
+    generos: ["Musical"],
     puntuacion: 3.5,
     fecha: "2026-08-08"
   },
