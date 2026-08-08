@@ -1223,5 +1223,14 @@ const entries = [
     generos: ["Peleas","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-08"
+  },
+  {
+    id: 150,
+    titulo: "Clone Hero",
+    imagen: "assets/img/clone-hero-150.jpg",
+    plataformas: ["pc"],
+    generos: ["Musical"],
+    puntuacion: 4.5,
+    fecha: "2026-08-08"
   }
 ];
