@@ -1250,5 +1250,14 @@ const entries = [
     generos: ["Musical","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-08"
+  },
+  {
+    id: 153,
+    titulo: "Pokémon Ultra Sun",
+    imagen: "assets/img/pokemon-ultra-sun-153.jpg",
+    plataformas: ["n3ds"],
+    generos: ["RPG","Estrategia","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-08"
   }
 ];
