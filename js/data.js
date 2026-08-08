@@ -27,7 +27,7 @@ const entries = [
     titulo: "Pokémon TCG Pocket",
     imagen: "assets/img/pokemon-tcg-pocket-2.jpg",
     plataformas: ["movil"],
-    generos: ["Estrategia"],
+    generos: ["Estrategia","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
