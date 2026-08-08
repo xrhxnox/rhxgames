@@ -1241,5 +1241,14 @@ const entries = [
     generos: ["Shooter","Multijugador","Online"],
     puntuacion: 3.5,
     fecha: "2026-08-08"
+  },
+  {
+    id: 152,
+    titulo: "Guitar Hero Worl Tour",
+    imagen: "assets/img/guitar-hero-worl-tour-152.jpg",
+    plataformas: ["wii"],
+    generos: ["Musical","Multijugador"],
+    puntuacion: 3.5,
+    fecha: "2026-08-08"
   }
 ];
